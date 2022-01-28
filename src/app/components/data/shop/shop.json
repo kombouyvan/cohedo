@@ -11,6 +11,9 @@
       "assets/img/shop/product5.jpg",
       "assets/img/shop/product6.jpg"
     ],
+    "partner": [
+      "assets/img/shop/partner01.jpg"
+    ],
     "price": 672,
     "discount": 10,
     "goal": 70000,
@@ -63,6 +66,9 @@
       "assets/img/shop/product5.jpg",
       "assets/img/shop/product6.jpg",
       "assets/img/shop/product7.jpg"
+    ],
+    "partner": [
+      "assets/img/shop/partner02.jpg"
     ],
     "price": 631,
     "discount": 15,
@@ -117,6 +123,9 @@
       "assets/img/shop/product8.jpg",
       "assets/img/shop/product9.jpg"
     ],
+    "partner": [
+      "assets/img/shop/partner03.jpg"
+    ],
     "price": 245,
     "discount": 13,
     "goal": 70000,
@@ -170,6 +179,9 @@
       "assets/img/shop/product7.jpg",
       "assets/img/shop/product8.jpg"
     ],
+    "partner": [
+      "assets/img/shop/partner04.jpg"
+    ],
     "price": 785,
     "discount": "",
     "goal": 70000,
@@ -222,6 +234,9 @@
       "assets/img/shop/product7.jpg",
       "assets/img/shop/product8.jpg",
       "assets/img/shop/product9.jpg"
+    ],
+    "partner": [
+      "assets/img/shop/partner05.jpg"
     ],
     "price": 638,
     "discount": "",

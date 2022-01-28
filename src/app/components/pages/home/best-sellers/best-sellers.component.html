@@ -7,16 +7,30 @@
           <!--                    <span class="fs-16"><a routerLink="/shop-left">See All Bestseller</a></span>-->
         </div>
       </div>
-      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4" *ngFor="let item of shopblock | slice:0:3">
-        <div class="product-box mb-md-20">
-          <div class="product-img">
-            <a>
-              <img [src]="item.image[0]" class="img-fluid full-width" [alt]="item.title">
-            </a>
-          </div>
+      <ng-container *ngIf="umber">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4" *ngFor="let item of shopblock | slice:0:3">
+          <div class="product-box mb-md-20">
+            <div class="product-img">
+              <a>
+                <img [src]="item.image[0]" class="img-fluid full-width" [alt]="item.title">
+              </a>
+            </div>
 
+          </div>
         </div>
-      </div>
+      </ng-container>
+      <ng-container *ngIf="partner">
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2" *ngFor="let item of shopblock | slice:0:5">
+          <div class="product-box mb-md-20">
+            <div class="product-img">
+              <a>
+                <img [src]="item.partner[0]" class="img-fluid full-width" [alt]="item.title">
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </ng-container>
     </div>
   </div>
 </section>
