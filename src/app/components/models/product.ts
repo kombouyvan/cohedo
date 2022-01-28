@@ -3,6 +3,7 @@ export class Product {
     title: string;
     price: number;
     image: [];
+    partner?: [];
     timestamp: number;
     postdate: string;
 

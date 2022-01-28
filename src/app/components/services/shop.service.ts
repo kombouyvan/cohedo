@@ -190,6 +190,7 @@ export class ShopService extends ProductService implements AfterContentInit, Aft
     return [this.minPrice, this.maxPrice]
   }
   public getProductsByPrice(minPrice: number, maxPrice: number) {
+    console.log(this.shopblock);
     return this.shopblock = productblock.filter((item: { price: (number) }) => {
       return item.price > minPrice && item.price <= maxPrice
     });

@@ -7,5 +7,7 @@ import { ShopService } from 'src/app/components/services/shop.service';
   styleUrls: ['./best-sellers.component.css']
 })
 export class BestSellersComponent extends ShopService {
-  @Input() title = ''
+  @Input() title = '';
+  @Input() partner = false;
+  @Input() umber = true;
 }
