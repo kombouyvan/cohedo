@@ -59,7 +59,7 @@
   },
   {
     "id": 5,
-    "linkText": "Kontakt",
+    "linkText": "Contact",
     "link":"/contact",
     "child": false,
     "submenu": [ ]
