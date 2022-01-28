@@ -1,0 +1,29 @@
+[
+    {
+        "id":1,
+        "image":"assets/img/banner/IMG-20190531-WA0060-780x520.jpg",
+        "title":"WER WIR SIND",
+        "subtitle":"COHEDO e.V. ist ein eingetragener integrations-politischer Verein in Dortmund-Dorstfeld.",
+        "text":"Mehr zum Verein",
+        "position":"col-lg-8",
+        "extraclass":"right-side-content text-center"
+    },
+    {
+        "id":2,
+        "image":"assets/img/banner/Mit-Pastoren-in-Berlin-web-780x520.jpg",
+        "title":"WAS WIR TUN",
+        "subtitle":"Förderung des solidarischen Zusammenlebens von Menschen aus verschiedenen Kulturen.",
+        "text":"Unsere Aufgaben",
+        "position":"col-lg-8",
+        "extraclass":"right-side-content text-center"
+    },
+    {
+        "id":3,
+        "image":"assets/img/banner/P1020047-780x520.jpg",
+        "title":"UNSERE PROJEKTE",
+        "subtitle":"Förderung des solidarischen Zusammenlebens von Menschen aus verschiedenen Kulturen.",
+        "text":"Akutelle Projekte",
+        "position":"col-lg-8",
+        "extraclass":"right-side-content text-center"
+    }
+]
