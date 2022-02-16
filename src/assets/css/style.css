@@ -104,7 +104,7 @@ label {
 	opacity: 0.5;
 }
 .overlay-bg {
-	background: rgb(76, 40, 60);
+	background: var(--primaryColor);
 	opacity: 0.8;
 }
 .overlay-bg-dark {
@@ -157,7 +157,7 @@ label {
 	box-shadow: 0 2px 14px 0px rgba(0, 0, 0, 0.1);
 	width: 30px;
 	height: 40px;
-	background: #F39325;
+	background: var(--primaryColor);
 	border-radius: 10%;
 	top: 52%;
 	transform: translate(0%, -48%);
@@ -6133,7 +6133,7 @@ footer .footer-links .contact-info li a span {
 }
 .feedback-slider .swiper-button-prev,
 .feedback-slider .swiper-button-next {
-	background-color: #d1a284;
+	background-color: var(--primaryColor);
 	color:  var(--primaryColor);
 }
 .feedback-slider .swiper-button-next:after,

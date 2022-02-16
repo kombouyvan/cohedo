@@ -1,29 +1,26 @@
 [
     {
         "id": 1,
-        "icon": "assets/img/how1.png",
-        "title": "Search",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.",
-        "arrowclass": "arrow-1"
+        "icon": "assets/img/vol.png",
+        "title": "Freiwilliger werden",
+        "text": ""
     },
     {
         "id": 2,
-        "icon": "assets/img/how2.png",
-        "title": "Select",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.",
-        "arrowclass": "arrow-2"
+        "icon": "assets/img/vol2.png",
+        "title": "Mitglied werden",
+        "text": ""
     },
     {
         "id": 3,
-        "icon": "assets/img/how3.png",
-        "title": "Order",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.",
-        "arrowclass": "arrow-1"
+        "icon": "assets/img/vol3.png",
+        "title": "Unsere Aufgaben",
+        "text": ""
     },
     {
         "id": 4,
-        "icon": "assets/img/how4.png",
-        "title": "Enjoy",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut."
+        "icon": "assets/img/vol4.png",
+        "title": "Vorstand",
+        "text": ""
     }
 ]

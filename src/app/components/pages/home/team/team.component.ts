@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import { SwiperOptions } from 'swiper';
 import data from '../../../data/story/story.json';
 
@@ -8,6 +8,9 @@ import data from '../../../data/story/story.json';
   styleUrls: ['./team.component.css']
 })
 export class TeamComponent implements OnInit {
+
+  @Input() title = '';
+
   public teamblock = data;
   constructor() { }
   // Settings

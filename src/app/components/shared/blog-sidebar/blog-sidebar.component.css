@@ -1,0 +1,10 @@
+.last-news-title{
+  position: absolute;
+  left: 20px;
+  bottom: 1em;
+  content: " ";
+  height: 3px;
+  width: 70px;
+  display: inline-block;
+  background-color: #01585e;
+}

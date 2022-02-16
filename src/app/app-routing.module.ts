@@ -13,6 +13,8 @@ const routes: Routes = [
   // Shop
   { path: 'shop-left', loadChildren: () => import('./components/pages/shop-left/shop-left.module').then(m => m.ShopLeftModule), data: { breadcrumb: "Shop Left" } },
   { path: 'shop-right', loadChildren: () => import('./components/pages/shop-right/shop-right.module').then(m => m.ShopRightModule), data: { breadcrumb: "Shop Right" } },
+  { path: 'last-news', loadChildren: () => import('./components/pages/home/last-news/last-news.module').then(m => m.LastNewsModule), data: { breadcrumb: "Last News" } },
+  { path: 'last-news/:lastNewsId', loadChildren: () => import('./components/pages/home/last-news/last-new-details/last-new-details.module').then(m => m.LastNewDetailsModule), data: { breadcrumb: "Last News Details" } },
   { path: 'shop/cat/:catId', loadChildren: () => import('./components/pages/shop-left/shop-left.module').then(m => m.ShopLeftModule), data: { breadcrumb: "Shop Left" } },
   { path: 'shop/tag/:tagId', loadChildren: () => import('./components/pages/shop-left/shop-left.module').then(m => m.ShopLeftModule), data: { breadcrumb: "Shop Left" } },
   { path: 'shop/:minPrice/:maxPrice', loadChildren: () => import('./components/pages/shop-left/shop-left.module').then(m => m.ShopLeftModule), data: { breadcrumb: "Shop Left" } },
@@ -43,7 +45,7 @@ const routes: Routes = [
   { path: 'story-details/:id', loadChildren: () => import('./components/pages/story-details/story-details.module').then(m => m.StoryDetailsModule), data: { breadcrumb: "Story Details" } },
   // Error 404
   { path: '**', loadChildren: () => import('./components/pages/error/error.module').then(m => m.ErrorModule), data: { breadcrumb: "Error 404" } },
-  
+
 ];
 
 @NgModule({

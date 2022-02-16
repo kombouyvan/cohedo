@@ -1,10 +1,9 @@
 <section class="recent-order section-padding">
   <div class="container-fluid custom-container">
-    <div class="row">
+    <div class="row" style="justify-content: end">
       <div class="col-12">
         <div class="section-header-left title">
           <h3 class="text-light-black header-title">{{title}}</h3>
-          <!--                    <span class="fs-16"><a routerLink="/shop-left">See All Bestseller</a></span>-->
         </div>
       </div>
       <ng-container *ngIf="umber">
@@ -20,14 +19,15 @@
         </div>
       </ng-container>
       <ng-container *ngIf="partner">
-        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2" *ngFor="let item of shopblock | slice:0:5">
-          <div class="product-box mb-md-20">
-            <div class="product-img">
-              <a>
-                <img [src]="item.partner[0]" class="img-fluid full-width" [alt]="item.title">
-              </a>
+        <div class="partner-container">
+          <div class="partner-item" *ngFor="let item of shopblock | slice:0:5">
+            <div class="product-box mb-md-20">
+              <div class="product-img">
+                <a>
+                  <img [src]="item.partner[0]" class="img-fluid full-width" [alt]="item.title">
+                </a>
+              </div>
             </div>
-
           </div>
         </div>
       </ng-container>

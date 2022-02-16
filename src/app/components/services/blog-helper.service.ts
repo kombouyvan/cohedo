@@ -2,6 +2,7 @@ import { Injectable, AfterContentInit, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { DomSanitizer } from '@angular/platform-browser';
 import blog from '../data/blog/blog.json';
+import news from '../data/lastnews.json';
 import blogcategory from '../data/blog/blogcategory.json';
 import blogtags from '../data/blog/blogtags.json';
 import author from '../data/authors.json';
@@ -15,6 +16,7 @@ export class BlogHelperService implements AfterContentInit, OnInit {
   page: number = 1;
   public blogpost = blog;
   public blogdetails = blog;
+  public lastnewsdetails = news;
   public category = blogcategory;
   public blogcategory = blogcategory;
   public tags = blogtags;
@@ -132,8 +134,13 @@ export class BlogHelperService implements AfterContentInit, OnInit {
   public setPost(id: any) {
     this.blogdetails = blog.filter((item: { id: any; }) => { return item.id == id });
   }
+
+  public setLastNews(id: any) {
+    this.lastnewsdetails = news.filter((item: { id: any; }) => { return item.id == id });
+  }
   ngAfterContentInit(): void {
     this.setCategory(this.route.snapshot.params.catId);
+    this.setLastNews(this.route.snapshot.params.lastNewsId);
     this.setTag(this.route.snapshot.params.tagId);
     this.setAuthor(this.route.snapshot.params.authorId);
     this.setSearch(this.route.snapshot.params.query);
@@ -184,6 +191,13 @@ export class BlogHelperService implements AfterContentInit, OnInit {
       return post.timestamp < new Date(post.postdate);
     });
     return elems;
+  }
+
+  public lastNewsTitle(search?: string): [{title: string, photo: string, id: number}] {
+    if (!search) {
+      return  news.map((n: {title: string, photo: string}) => n);
+    }
+    return news.filter((n: {title: string, photo: string}) => n.title.toUpperCase().includes(search.toUpperCase()));
   }
 
   ngOnInit(): void {

@@ -1,6 +1,23 @@
 <div class="side-bar">
     <div class="main-box padding-20 side-blog mb-xl-20">
-        <h5 class="text-light-black">Popular Post</h5>
+      <ng-container *ngIf="useTitle">
+        <h5 class="text-light-black">{{title == ''? 'Popular Post' : title}}</h5>
+      </ng-container>
+      <ng-container *ngIf="enableLastNews">
+        <form (ngSubmit)="onSearchLastNews()" #contactForm="ngForm">
+          <div class="row clearfix">
+            <div class="col-md-12">
+              <div class="form-group">
+                <input (keydown.enter)="searchClicked($event)" type="text" class="form-control form-control-submit" name="name"
+                       [(ngModel)]="searchLastNews" required>
+              </div>
+              <div class="col-md-12">
+                <button style="width: 100%" class="btn-solid with-line" type="submit">SUCHE</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </ng-container>
         <article class="side-post pb-xl-20 mb-xl-20 u-line" *ngFor="let item of recentPost()">
             <div class="thumb-img">
                 <a routerLink="/blog-details/{{item.id}}">
@@ -17,17 +34,48 @@
                 </div>
             </div>
         </article>
+      <article class="side-post pb-xl-20 mb-xl-20 u-line" *ngFor="let item of recentPost()">
+        <div class="thumb-img">
+          <a routerLink="/blog-details/{{item.id}}">
+            <img [src]="item.image[0]" [alt]="item.title">
+          </a>
+        </div>
+        <div class="content-wrap">
+          <div class="entry-meta-content">
+            <h6 class="entry-title">
+              <a routerLink="/blog-details/{{item.id}}" class="text-light-black">{{item.title | slice:0:30}}...</a>
+            </h6>
+            <div class="entry-tye"> <span class="text-light-white fw-400">{{item.postdate}}</span>
+            </div>
+          </div>
+        </div>
+      </article>
     </div>
+  <ng-container *ngIf="enableTags">
     <div class="main-box padding-20 blog-tags mb-xl-20">
-        <h5 class="text-light-black">Tags</h5>
-        <a routerLink="/blog/tag/{{item.id}}" *ngFor="let item of tags">#{{item.title}}</a>
+      <h5 class="text-light-black">Tags</h5>
+      <a routerLink="/blog/tag/{{item.id}}" *ngFor="let item of tags">#{{item.title}}</a>
     </div>
+  </ng-container>
+  <ng-container *ngIf="enableCategories">
     <div class="main-box padding-20 trending-blog-cat mb-xl-20">
-        <h5 class="text-light-black">Categories</h5>
-        <ul>
-            <li class="pb-xl-20 u-line mb-xl-20" *ngFor="let item of category"> 
-                <a routerLink="/blog/cat/{{item.id}}" class="text-light-black fw-600">{{item.title}} <span class="text-light-white fw-400">({{item.count}})</span></a>
-            </li>
-        </ul>
+      <h5 class="text-light-black">Categories</h5>
+      <ul>
+        <li class="pb-xl-20 u-line mb-xl-20" *ngFor="let item of category">
+          <a routerLink="/blog/cat/{{item.id}}" class="text-light-black fw-600">{{item.title}} <span class="text-light-white fw-400">({{item.count}})</span></a>
+        </li>
+      </ul>
     </div>
+  </ng-container>
+  <ng-container *ngIf="enableLastNews">
+    <div class="main-box padding-20 trending-blog-cat mb-xl-20">
+      <h5 class="text-light-black">NEUIGKEITEN</h5>
+      <ul>
+        <li class="pb-xl-20 u-line mb-xl-20" *ngFor="let t of news">
+          <a routerLink="/last-news/{{t.id}}" class="text-light-black fw-600">
+            {{t.title}}</a>
+        </li>
+      </ul>
+    </div>
+  </ng-container>
 </div>

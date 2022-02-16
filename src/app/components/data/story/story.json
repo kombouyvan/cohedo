@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "image": "assets/img/story-big/story1.jpg",
-        "name": "Martha",
-        "address": "NY",
+        "image": "assets/img/story-big/ba001.png",
+        "name": "Gemeinsam statt alleine",
+        "address": "02.10.2018",
         "title": "Change the citizen life",
         "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.",
         "tags": [
@@ -61,9 +61,9 @@
     },
     {
         "id": 2,
-        "image": "assets/img/story-big/story2.jpg",
-        "name": "Michle",
-        "address": "CA",
+        "image": "assets/img/story-big/stor1.jpg",
+        "name": "Globe Café – eine Welt in der Kiste",
+        "address": "02.11.2018",
         "title": "The Publicity Campaign",
         "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.",
         "tags": [
@@ -121,9 +121,9 @@
     },
     {
         "id": 3,
-        "image": "assets/img/story-big/story3.jpg",
-        "name": "Adem",
-        "address": "LA",
+        "image": "assets/img/story-big/stor2.jpg",
+        "name": "Meet & Greet – dein Engagement ist gefragt",
+        "address": "01.12.2018",
         "title": "The clean power plan",
         "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.",
         "tags": [
@@ -181,9 +181,9 @@
     },
     {
         "id": 4,
-        "image": "assets/img/story-big/story4.jpg",
-        "name": "Jimmy",
-        "address": "CA",
+        "image": "assets/img/story-big/stor3.jpg",
+        "name": "COHEDO e.V. – Jahresfeier",
+        "address": "24.12.2018",
         "title": "Security for the middle class",
         "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.",
         "tags": [
@@ -241,9 +241,9 @@
     },
     {
         "id": 5,
-        "image": "assets/img/story-big/story5.jpg",
-        "name": "Nico",
-        "address": "FL",
+        "image": "assets/img/story-big/stor4.jpg",
+        "name": "„ Deine Stimme für Integration“",
+        "address": "",
         "title": "Preparing our youth for success",
         "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.",
         "tags": [
@@ -301,9 +301,9 @@
     },
     {
         "id": 6,
-        "image": "assets/img/story-big/story6.jpg",
-        "name": "Jordan",
-        "address": "NY",
+        "image": "assets/img/story-big/stor5.jpg",
+        "name": "Ein Photovoice-Projekt",
+        "address": "",
         "title": "Making College More Affordable",
         "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.",
         "tags": [
@@ -361,9 +361,9 @@
     },
     {
         "id": 7,
-        "image": "assets/img/story-big/story7.jpg",
-        "name": "Richa",
-        "address": "NY",
+        "image": "assets/img/story-big/stor6.jpg",
+        "name": "OHEDO e.V. – Jahresfeier",
+        "address": "24.12.2018",
         "title": "Energy and Environment Research",
         "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.",
         "tags": [
@@ -421,9 +421,9 @@
     },
     {
         "id": 8,
-        "image": "assets/img/story-big/story8.jpg",
-        "name": "Hemlet",
-        "address": "NJ",
+        "image": "assets/img/story-big/stor7.jpg",
+        "name": "Meet & Greet – dein Engagement ist gefragt",
+        "address": "01.12.2018",
         "title": "Change the citizen life",
         "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.",
         "tags": [
@@ -482,8 +482,8 @@
     {
         "id": 9,
         "image": "assets/img/story-big/story9.jpg",
-        "name": "Ricky",
-        "address": "LA",
+        "name": " Globe Café – eine Welt in der Kiste",
+        "address": "02.11.2018",
         "title": "The clean power plan",
         "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.",
         "tags": [
@@ -542,8 +542,8 @@
     {
         "id": 10,
         "image": "assets/img/story-big/story1.jpg",
-        "name": "Casendra",
-        "address": "LA",
+        "name": " Gemeinsam statt alleine",
+        "address": "02.10.2018",
         "title": "Security for the middle class",
         "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.",
         "tags": [
@@ -602,8 +602,8 @@
     {
         "id": 11,
         "image": "assets/img/story-big/story2.jpg",
-        "name": "Rob",
-        "address": "CA",
+        "name": "FOTOSBERICHT",
+        "address": "09.09.2018",
         "title": "Preparing our youth for success",
         "shortdesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.",
         "tags": [

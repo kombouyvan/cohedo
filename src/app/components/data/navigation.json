@@ -41,7 +41,7 @@
   {
     "id": 3,
     "linkText": "Latest News",
-    "link":"/donate",
+    "link":"/last-news",
     "child": false,
     "submenu": []
   },
