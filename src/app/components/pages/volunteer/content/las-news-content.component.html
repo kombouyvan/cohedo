@@ -1,0 +1,98 @@
+<section class="our-articles bg-light-theme section-padding ">
+  <div class="container-fluid custom-container">
+    <div class="row">
+      <div class="col-xl-9 col-lg-8">
+        <div class="full-width">
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12">
+              <article class="blog-item blog-item-box">
+                <div>
+                  <header class="entry-header">
+                    <img [style.width.%]="100" height="520" src="/assets/img/member-ship.jpeg"
+                         class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy">
+                  </header>
+                  <div>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="my-5">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto autem consectetur consequuntur cum dignissimos error, explicabo fuga iste laboriosam modi nam nemo placeat soluta, sunt vitae, voluptas voluptatem voluptates!
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci asperiores atque consequatur cupiditate eaque error eum harum ipsam laborum, maxime nesciunt nostrum odit omnis optio, perspiciatis quis sunt veniam voluptate.
+                          </div>
+                          <div class="section-header-left title">
+                            <h3 class="text-light-black header-title"></h3>
+                          </div>
+                          <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
+                            <div class="row clearfix">
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <input type="text" class="form-control form-control-submit" name="name"
+                                         [(ngModel)]="model.name" placeholder="Full Name" required>
+                                </div>
+                                <div class="form-group">
+                                  <input type="email" name="email" [(ngModel)]="model.email" class="form-control form-control-submit"
+                                         placeholder="Email" required>
+                                </div>
+                                <div class="form-group">
+                                  <input type="text" name="phone"
+                                         [(ngModel)]="model.phone" class="form-control form-control-submit"
+                                         placeholder="Phone" required>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                <textarea name="message"
+                                          [(ngModel)]="model.message" class="form-control form-control-submit"
+                                          placeholder="Motivations" required [style.height.px]="170"></textarea>
+                                </div>
+                              </div>
+                              <div class="col-md-12 mb-2">
+                                <button class="btn-solid with-line" type="submit">Send</button>
+                              </div>
+                              <!-- Form Messages -->
+                              <div class="col-md-12">
+                                <div class="service-error mt-4 w-100" *ngIf="error">
+                                  <ngb-alert type="danger" class="mb-0 w-100" [dismissible]="false">
+                                    <strong>Oops!</strong> Something bad happened. Please try again later.
+                                  </ngb-alert>
+                                </div>
+                                <div [hidden]="!submitted" class="contact-message w-100 mt-4">
+                                  <div *ngIf="model.id" class="contact-success w-100">
+                                    <ngb-alert type="success" class="mb-0 w-100" [dismissible]="false">
+                                      <strong>Success!</strong> Contact form has been successfully submitted.
+                                    </ngb-alert>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Form Messages -->
+                            </div>
+                          </form>
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="mt-4">
+                  </div><!-- .entry-content -->
+                  <footer class="entry-meta">
+                  </footer><!-- .entry-meta -->
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pagination End -->
+      </div>
+      <aside class="col-xl-3 col-lg-4">
+        <app-blog-sidebar
+          [title]="title"
+          [useTitle]="false"
+          [enableCategories]="false"
+          [enableTags]="false"
+          [enableLastNews]="true"></app-blog-sidebar>
+      </aside>
+    </div>
+  </div>
+</section>

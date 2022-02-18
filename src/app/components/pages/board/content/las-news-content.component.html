@@ -1,0 +1,37 @@
+<section class="our-articles bg-light-theme section-padding ">
+  <div class="container-fluid custom-container">
+    <div class="row">
+      <div class="col-xl-9 col-lg-8">
+        <div class="full-width">
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12">
+              <article class="blog-item blog-item-box">
+                <div>
+                  <header class="entry-header">
+                    <img [style.width.%]="100" height="520" src="/assets/img/board/board.jpg"
+                         class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy">
+                  </header>
+
+                  <div class="mt-4">
+                  </div><!-- .entry-content -->
+                  <footer class="entry-meta">
+                  </footer><!-- .entry-meta -->
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pagination End -->
+      </div>
+      <aside class="col-xl-3 col-lg-4">
+        <app-blog-sidebar
+          [title]="title"
+          [useTitle]="false"
+          [enableCategories]="false"
+          [enableTags]="false"
+          [enableLastNews]="true"></app-blog-sidebar>
+      </aside>
+    </div>
+  </div>
+</section>

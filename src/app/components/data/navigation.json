@@ -18,22 +18,22 @@
       },
       {
         "id": 2.2,
-        "link": "/board-of-directors",
+        "link": "/what-we-do",
         "linkText": "What We Do"
       },
       {
         "id": 2.3,
-        "link": "/statute",
+        "link": "/board",
         "linkText": "Board"
       },
       {
         "id": 2.4,
-        "link": "/members",
+        "link": "/member-ship",
         "linkText": "Membership"
       },
       {
         "id": 2.5,
-        "link": "/become-a-volunteer",
+        "link": "/volunteer",
         "linkText": "Volunteer"
       }
     ]
@@ -53,7 +53,7 @@
       {
         "id": 4.1,
         "linkText": "Completed projects",
-        "link": "/current-projects"
+        "link": "/completed-projects"
       }
     ]
   },
