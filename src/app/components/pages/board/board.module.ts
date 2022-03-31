@@ -7,6 +7,7 @@ import { BoardRoutingModule } from './board-routing.module';
 import { BoardComponent } from './board.component';
 import { LasNewsContentComponent } from './content/las-news-content.component';
 import {SharedModule} from '../../shared/shared.module';
+import {AboutModule} from '../about/about.module';
 
 
 
@@ -20,7 +21,8 @@ import {SharedModule} from '../../shared/shared.module';
     BoardRoutingModule,
     SharedModule,
     NgbModule,
-    NgxPaginationModule
+    NgxPaginationModule,
+    AboutModule
   ]
 })
 export class BoardModule { }

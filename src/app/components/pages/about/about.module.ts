@@ -10,6 +10,7 @@ import { AboutTextComponent } from './about-text/about-text.component';
 import { ProcessComponent } from './process/process.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { BlogPostComponent } from './blog-post/blog-post.component';
+import { TeamsComponent } from '../board/teams/teams.component';
 
 
 @NgModule({
@@ -18,7 +19,11 @@ import { BlogPostComponent } from './blog-post/blog-post.component';
     AboutTextComponent,
     ProcessComponent,
     TestimonialsComponent,
-    BlogPostComponent
+    BlogPostComponent,
+    TeamsComponent
+  ],
+  exports: [
+    TeamsComponent
   ],
   imports: [
     CommonModule,

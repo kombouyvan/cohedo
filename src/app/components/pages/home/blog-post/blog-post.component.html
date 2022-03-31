@@ -1,29 +1,61 @@
 <section class="section-padding blog-section bg-theme-primary">
-    <div class="container-fluid custom-container">
-        <div class="row">
-            <div class="col-12">
-                <div class="section-header-left title">
-                    <h3 class="text-light-black header-title">VERANSTALTUNGEN/TERMINE</h3>
-                    <span class="fs-16"><a routerLink="/blog-left">See All</a></span>
-                </div>
-            </div>
-            <div class="offset-xl-2 col-xl-4 col-lg-4 col-md-6" *ngFor="let item of blogpost | slice:0:2">
-                <article class="blog-item blog-item-box">
-                    <div class="blog-item-img">
-                        <img class="blog-img" [src]="item.image[0]" [alt]="item.title">
-                        <ul class="blog-item-badge">
-                            <li *ngFor="let cat of getCategories(item.category) | slice:0:2"><a routerLink="/blog/cat/{{cat.id}}">{{cat.title}}</a> </li>
-                        </ul>
-                    </div>
-                    <div class="blog-item-content">
-                        <h5 class="blog-item-title"><a routerLink="/blog-details/{{item.id}}">{{item.title}}</a></h5>
-                        <p>{{item.shortdesc}}</p>
-                        <div class="blog-item-details">
-                            <span class="blog-item-date"><i class="fas fa-calendar-week"></i> {{item.postdate}}</span>
-                            <span><i class="fas fa-map-marker-alt"></i> {{item.location}}</span></div>
-                    </div>
-                </article>
-            </div>
+  <div class="container-fluid custom-container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-header-left title">
+          <h3 class="text-light-black header-title">VERANSTALTUNGEN/TERMINE</h3>
+          <span class="fs-16"><a routerLink="/blog-left">See All</a></span>
         </div>
+      </div>
+      <ng-container>
+        <div class="col-xl-6" >
+          <div class="row">
+            <div class=" col-xl-4 col-md-4 col-sm-6 col-xs-6" *ngFor="let item of months" style="cursor: pointer">
+              <div class="product-box mb-md-20 d-flex justify-content-center align-item-center"
+                   style="height: 100px;font-weight: bold">
+                {{item.month}}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          <article class="side-post pb-xl-20 mb-xl-20 u-line d-flex" style="cursor: pointer" >
+            <div class="thumb-img mr-2">
+<!--              <a routerLink="/shop-details/{{item.id}}">-->
+                <img src="/assets/img/cohedo-1.png" alt="cohedo"  style="width:95px;height: 59px;object-fit: cover">
+<!--              </a>-->
+            </div>
+            <div class="content-wrap">
+              <div class="entry-meta-content">
+                <h6 class="entry-title">
+                  <div class="text-light-black">WARUM NACHHALTIGKEIT? Corona-Pandemie und die Agenda2030</div>
+                </h6>
+                <div class="entry-tye">
+                  <span class="text-price">27.04.2021</span>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="side-post pb-xl-20 mb-xl-20 u-line d-flex" >
+            <div class="thumb-img mr-2">
+              <!--              <a routerLink="/shop-details/{{item.id}}">-->
+              <img src="/assets/img/cohedo-2.jpg" alt="cohedo"  style="width:95px;height: 59px;object-fit: cover">
+              <!--              </a>-->
+            </div>
+            <div class="content-wrap">
+              <div class="entry-meta-content">
+                <h6 class="entry-title">
+                  <div class="text-light-black">DORSTFRIENDS – Ausflug zum Dortmunder Rathaus</div>
+                </h6>
+                <div class="entry-tye">
+                  <span class="text-price">31.08.2019</span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+      </ng-container>
     </div>
+  </div>
 </section>

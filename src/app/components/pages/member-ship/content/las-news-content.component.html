@@ -17,14 +17,65 @@
                     <div class="container">
                       <div class="row">
                         <div class="col-12">
-                          <div class="my-5">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto autem consectetur consequuntur cum dignissimos error, explicabo fuga iste laboriosam modi nam nemo placeat soluta, sunt vitae, voluptas voluptatem voluptates!
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci asperiores atque consequatur cupiditate eaque error eum harum ipsam laborum, maxime nesciunt nostrum odit omnis optio, perspiciatis quis sunt veniam voluptate.
+                          <h3 class="mt-2 -mb-2">Warum sich bei uns engagieren?</h3>
+                          <div class="my-2">
+                            Freiwillige Helfer sind für die Arbeit von Community at Heart Dortmund (COHEDO) von
+                            entscheidender Bedeutung. Mit Hilfe unserer hervorragenden Freiwilligen leisten wir
+                            Unterstützung in unseren lokalen Gemeinschaften im In- und Ausland und sichern eine bessere
+                            Umwelt für die zukünftige Generation der Welt.
                           </div>
-                          <div class="section-header-left title">
-                            <h3 class="text-light-black header-title"></h3>
-                          </div>
+
+
                           <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
+                            <div class="widget widget-radio  mandatory">
+                              <fieldset style="margin-top: -47px;">
+                                <legend>
+                                  <div class="invisible">Pflichtfeld</div>
+                                  Art der Mitgliedschaft
+                                  <span
+                                    class="mandatory">*
+                                </span>
+                                </legend>
+                                <div style="display: flex">
+                                  <input class="button-radio" type="radio" name="mitgliedschaft_art" id="opt_2_0"
+                                         value="Ich möchte persönliches Mitglied werden (60 EUR pro Jahr)"
+                                         required="">
+                                  <label id="lbl_2_0" for="opt_2_0">Ich möchte persönliches Mitglied werden
+                                  </label>
+                                </div>
+                                <div style="display: flex"><input type="radio" name="mitgliedschaft_art" id="opt_2_1"
+                                                                  class="button-radio"
+                                                                  value="Unser/e Gemeinde, Stadt, Kreis möchte Mitglied werden "
+                                                                  required=""> <label id="lbl_2_1" for="opt_2_1">Unser/e
+                                  Gemeinde, Stadt, Kreis
+                                  möchte Mitglied werden </label></div>
+                                <div style="display: flex"><input type="radio" name="mitgliedschaft_art" id="opt_2_2"
+                                                                  class="button-radio"
+                                                                  value="Unser Verein/Verband mit ökologischer/sozialer Zielsetzung möchte Mitglied werden )"
+                                                                  required=""> <label id="lbl_2_2" for="opt_2_2">Unser
+                                  Verein/Verband mit
+                                  ökologischer/sozialer Zielsetzung möchte Mitglied werden </label>
+                                </div>
+                                <div style="display: flex"><input type="radio" name="mitgliedschaft_art" id="opt_2_3"
+                                                                  class="button-radio"
+                                                                  value="Unser/e Verein/Verband/Interessenvertretung/Partei möchte Mitglied werden "
+                                                                  required=""> <label id="lbl_2_3" for="opt_2_3">Unser/e
+                                  Verein/Verband/Interessenvertretung/Partei möchte Mitglied werden </label></div>
+                                <div style="display: flex"><input type="radio" name="mitgliedschaft_art" id="opt_2_4"
+                                                                  class="button-radio"
+                                                                  value="Ich möchte persönliches Fördermitglied werden "
+                                                                  required=""> <label id="lbl_2_4" for="opt_2_4">Ich
+                                  möchte persönliches
+                                  Fördermitglied werden</label></div>
+                                <div style="display: flex">
+                                  <input type="radio" name="mitgliedschaft_art" id="opt_2_5"
+                                                                  class="button-radio"
+                                                                  value="Unsere Firma möchte Fördermitglied werden"
+                                                                  required=""> <label id="lbl_2_5" for="opt_2_5">Unsere
+                                  Firma möchte
+                                  Fördermitglied werden </label></div>
+                              </fieldset>
+                            </div>
                             <div class="row clearfix">
                               <div class="col-md-6">
                                 <div class="form-group">
@@ -32,7 +83,8 @@
                                          [(ngModel)]="model.name" placeholder="Full Name" required>
                                 </div>
                                 <div class="form-group">
-                                  <input type="email" name="email" [(ngModel)]="model.email" class="form-control form-control-submit"
+                                  <input type="email" name="email" [(ngModel)]="model.email"
+                                         class="form-control form-control-submit"
                                          placeholder="Email" required>
                                 </div>
                                 <div class="form-group">

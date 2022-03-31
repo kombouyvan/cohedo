@@ -8,14 +8,15 @@
               <article class="blog-item blog-item-box">
                 <div>
                   <header class="entry-header">
-                    <img [style.width.%]="100" height="520" src="/assets/img/board/board.jpg"
-                         class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy">
-                  </header>
+                    <div class="container py-5">
 
-                  <div class="mt-4">
-                  </div><!-- .entry-content -->
-                  <footer class="entry-meta">
-                  </footer><!-- .entry-meta -->
+                      <div class="row text-center ">
+                        <div class="col-xl-4 mb-5" *ngFor="let team of teams">
+                          <app-teams [team]="team" ></app-teams>
+                        </div>
+                      </div>
+                    </div>
+                  </header>
                 </div>
               </article>
             </div>
