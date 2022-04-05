@@ -10,16 +10,19 @@ import { ContentComponent } from './content/content.component';
 
 
 @NgModule({
-  declarations: [
-    BlogLeftComponent,
-    ContentComponent
-  ],
-  imports: [
-    CommonModule,
-    BlogLeftRoutingModule,
-    SharedModule,
-    NgbModule,
-    NgxPaginationModule
-  ]
+    declarations: [
+        BlogLeftComponent,
+        ContentComponent
+    ],
+    exports: [
+        ContentComponent
+    ],
+    imports: [
+        CommonModule,
+        BlogLeftRoutingModule,
+        SharedModule,
+        NgbModule,
+        NgxPaginationModule
+    ]
 })
 export class BlogLeftModule { }

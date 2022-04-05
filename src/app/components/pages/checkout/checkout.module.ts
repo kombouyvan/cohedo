@@ -10,16 +10,19 @@ import { ContentComponent } from './content/content.component';
 
 
 @NgModule({
-  declarations: [
-    CheckoutComponent,
-    ContentComponent
-  ],
-  imports: [
-    CommonModule,
-    CheckoutRoutingModule,
-    SharedModule,
-    NgbModule,
-    FormsModule
-  ]
+    declarations: [
+        CheckoutComponent,
+        ContentComponent
+    ],
+    exports: [
+        ContentComponent
+    ],
+    imports: [
+        CommonModule,
+        CheckoutRoutingModule,
+        SharedModule,
+        NgbModule,
+        FormsModule
+    ]
 })
 export class CheckoutModule { }

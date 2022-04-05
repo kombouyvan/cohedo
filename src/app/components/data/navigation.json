@@ -38,37 +38,97 @@
       }
     ]
   },
+
   {
     "id": 3,
-    "linkText": "Latest News",
-    "link":"/last-news",
-    "child": false,
-    "submenu": []
-  },
-  {
-    "id": 4,
     "linkText": "Project",
     "child": true,
     "submenu": [
       {
+        "id": 3.2,
+        "linkText": "Local",
+        "link": "/project/projects-local"
+      },
+      {
+        "id": 3.1,
+        "linkText": "International",
+        "link": "/project/projects-international"
+      }
+
+    ]
+  },
+  {
+    "id": 4,
+    "linkText": "Theme",
+    "child": true,
+    "submenu": [
+      {
         "id": 4.1,
-        "linkText": "Completed projects",
-        "link": "/completed-projects"
+        "link": "/integration",
+        "linkText": "Intergration, Soziale und zusammenhalt"
+      },
+      {
+        "id": 4.2,
+        "link": "/health-and-enlightenment",
+        "linkText": "Gesundheit und Aufklarung (GAP)"
+      },
+      {
+        "id": 4.3,
+        "link": "/development-and-cooperation",
+        "linkText": "Entwicklung und zusammenarbeit"
+      },
+      {
+        "id": 4.4,
+        "link": "/education",
+        "linkText": "Bildung"
+      },
+      {
+        "id": 4.5,
+        "link": "/sustainability",
+        "linkText": "Nachhaltigkeit"
       }
     ]
   },
   {
     "id": 5,
+    "linkText": "Presse",
+    "child": true,
+    "submenu": [
+      {
+        "id": 5.1,
+        "link": "/last-news",
+        "linkText": "Latest news"
+      },
+      {
+        "id": 5.2,
+        "link": "/social-media",
+        "linkText": "Social Media"
+      },
+      {
+        "id": 5.3,
+        "link": "/informations",
+        "linkText": "Informations"
+      },
+      {
+        "id": 5.4,
+        "link": "/service",
+        "linkText": "Service"
+      }
+    ]
+  },
+  {
+    "id": 6,
     "linkText": "Contact",
     "link":"/contact",
     "child": false,
     "submenu": [ ]
   },
   {
-    "id": 6,
+    "id": 7,
     "linkText": "Donate",
     "link":"/donate",
     "child": false,
     "submenu": []
   }
+
 ]

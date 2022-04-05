@@ -9,15 +9,18 @@ import { ContentComponent } from './content/content.component';
 
 
 @NgModule({
-  declarations: [
-    StoryDetailsComponent,
-    ContentComponent
-  ],
-  imports: [
-    CommonModule,
-    StoryDetailsRoutingModule,
-    SharedModule,
-    NgbModule
-  ]
+    declarations: [
+        StoryDetailsComponent,
+        ContentComponent
+    ],
+    exports: [
+        ContentComponent
+    ],
+    imports: [
+        CommonModule,
+        StoryDetailsRoutingModule,
+        SharedModule,
+        NgbModule
+    ]
 })
 export class StoryDetailsModule { }

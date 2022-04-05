@@ -1,0 +1,13 @@
+.active{
+  background-color: #01585e !important;
+  color:white;
+}
+
+.month-container{
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
+.event-container{
+  padding: 0 78px;
+}

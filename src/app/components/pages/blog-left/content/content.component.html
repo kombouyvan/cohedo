@@ -1,38 +1,70 @@
 <section class="our-articles bg-light-theme section-padding ">
-    <div class="container-fluid custom-container">
-        <div class="row">
-            <aside class="col-xl-3 col-lg-4 mb-md-40">
-               <app-blog-sidebar></app-blog-sidebar>
-            </aside>
-            <div class="col-xl-9 col-lg-8">
-                <div class="full-width">
-                    <div class="row">
-                        <div class="col-xl-4 col-lg-6 col-md-6" *ngFor="let item of blogpost | paginate: { itemsPerPage: 9, currentPage: page }">
-                            <article class="blog-item blog-item-box">
-                                <div class="blog-item-img">
-                                    <img class="blog-img" [src]="item.image[0]" [alt]="item.title">
-                                    <ul class="blog-item-badge">
-                                        <li *ngFor="let cat of getCategories(item.category) | slice:0:2"><a routerLink="/blog/cat/{{cat.id}}">{{cat.title}}</a> </li>
-                                    </ul>
-                                </div>
-                                <div class="blog-item-content">
-                                    <h5 class="blog-item-title"><a routerLink="/blog-details/{{item.id}}">{{item.title}}</a></h5>
-                                    <p>{{item.shortdesc}}</p>
-                                    <div class="blog-item-details">
-                                        <span class="blog-item-date"><i class="fas fa-calendar-week"></i> {{item.postdate}}</span>
-                                        <span><i class="fas fa-comment-dots"></i> {{item.reviews.length}}</span></div>
-                                </div>
-                            </article>
-                        </div>
+  <div class="container-fluid custom-container">
+    <div class="row">
+      <div class="col-xl-9 col-lg-8">
+
+        <ul ngbNav #nav="ngbNav" class="nav nav-pills mb-3">
+          <li ngbNavItem>
+            <a ngbNavLink>Laufende Projekte</a>
+            <ng-template ngbNavContent>
+              <div class="full-width">
+                <div class="row">
+                  <div class="main-box padding-20 full-width mb-md-40">
+                    <div class="post-wrapper mb-xl-20">
+                      <div class="blog-item-img">
+                        <img src="/assets/img/projects-local.jpg" class="img-fluid full-width" alt="images of person">
+                        <ul class="blog-item-badge">
+                          <li><a></a></li>
+                        </ul>
+                      </div>
                     </div>
+                    <div class="row padding-20">
+                      <h6>KOMM-AN-NRW COHEDO e.V._Intergrationsangebote 2018</h6>
+                      <div class="d-flex mb-4" *ngFor="let activity of projects">
+                        <div class="col-lg-3">
+                          <img [src]="activity.image"
+                               class="img-fluid"
+                               alt="images of person"></div>
+                        <div class="col-lg-9">
+                            <div class="text-light-white">
+                              <strong>{{activity.date}}: {{activity.project}}</strong><br>
+                              <div [innerHTML]="activity.description"></div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
-                <!-- Pagination Start -->
-                <div class="custom-pagination pagination">
-                    <pagination-controls (pageChange)="page = $event" responsive="true" previousLabel="<" nextLabel=">">
-                    </pagination-controls>
-                </div>
-                <!-- Pagination End -->
-            </div>
-        </div>
+              </div>
+              <!-- Pagination Start -->
+              <!--              <div class="custom-pagination pagination">-->
+              <!--                <pagination-controls (pageChange)="page = $event" responsive="true" previousLabel="<" nextLabel=">">-->
+              <!--                </pagination-controls>-->
+              <!--              </div>    -->
+              <!-- Pagination End -->
+            </ng-template>
+
+          </li>
+          <li ngbNavItem>
+            <a ngbNavLink>Abgeschlossene Projekte</a>
+            <ng-template ngbNavContent>content 2</ng-template>
+          </li>
+
+        </ul>
+        <div [ngbNavOutlet]="nav"></div>
+
+
+      </div>
+
+      <aside class="col-xl-3 col-lg-4">
+        <app-blog-sidebar
+          [title]=""
+          [useTitle]="false"
+          [enableCategories]="false"
+          [enableTags]="false"
+          [enableLastNews]="true"></app-blog-sidebar>
+      </aside>
     </div>
+  </div>
 </section>

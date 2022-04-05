@@ -1334,7 +1334,7 @@ span.type-tag {
 	visibility: hidden;
 	opacity: 0;
 	transition: 0.3s;
-	width: 250px;
+	width: 319px;
 }
 .menu-item-has-children:hover>.sub-menu {
 	border-top: 1px solid rgba(67, 41, 163, .2);

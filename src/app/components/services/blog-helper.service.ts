@@ -1,6 +1,6 @@
-import { Injectable, AfterContentInit, OnInit } from '@angular/core';
-import { Router, ActivatedRoute } from '@angular/router';
-import { DomSanitizer } from '@angular/platform-browser';
+import {Injectable, AfterContentInit, OnInit} from '@angular/core';
+import {Router, ActivatedRoute} from '@angular/router';
+import {DomSanitizer} from '@angular/platform-browser';
 import blog from '../data/blog/blog.json';
 import news from '../data/lastnews.json';
 import blogcategory from '../data/blog/blogcategory.json';
@@ -24,95 +24,125 @@ export class BlogHelperService implements AfterContentInit, OnInit {
   public author = author;
   public searchText: string;
   public searchQuery: string;
+
   constructor(private router: Router, private route: ActivatedRoute, private sanitizer: DomSanitizer) {
     this.searchText = '';
     this.searchQuery = '';
   }
+
   // category
   public getCategories(items: string | any[]) {
     var elems = blogcategory.filter((item: { id: string; }) => {
-      return items.includes(item.id)
+      return items.includes(item.id);
     });
     return elems;
   }
+
   // Tags
   public getTags(items: string | any[]) {
     var elems = blogtags.filter((item: { id: string; }) => {
-      return items.includes(item.id)
+      return items.includes(item.id);
     });
     return elems;
   }
+
   // Author
   public getAuthor(items: string | any[]) {
     var elems = author.filter((item: { id: string; }) => {
-      return items.includes(item.id)
+      return items.includes(item.id);
     });
     return elems;
   }
+
   // Count Category
   public setCategoriesCount() {
     for (var i = 0; i < this.blogcategory.length; i++) {
-      var count = this.blogpost.filter((post: { category: number[]; }) => { return post.category.includes(parseInt(this.blogcategory[i].id)) });
+      var count = this.blogpost.filter((post: { category: number[]; }) => {
+        return post.category.includes(parseInt(this.blogcategory[i].id));
+      });
       count = count.length;
       this.blogcategory[i].count = count;
     }
   }
+
   // Related post
   public getPostByCategory(items: string | any[]) {
-    var elems = blog.filter((post: { id: string; category: any[]; }) => { return parseInt(post.id) !== parseInt(this.route.snapshot.params.id) && post.category.some(r => items.includes(r)) });
+    var elems = blog.filter((post: { id: string; category: any[]; }) => {
+      return parseInt(post.id) !== parseInt(this.route.snapshot.params.id) && post.category.some(r => items.includes(r));
+    });
     return elems;
   }
+
   // Search Filter
   onSubmit() {
-    if (this.searchText === "") {
+    if (this.searchText === '') {
       return;
     } else {
       this.router.navigate(['blog/search', this.searchText]);
     }
   }
+
   // Filter
   // Category Filter
   public setCategory(id: any) {
     this.blogcategory = id;
   }
+
   public getCategory() {
     return this.blogcategory;
   }
+
   public getPostsByCategory(catId: string) {
-    return this.blogpost = blog.filter((item: { category: number[]; }) => { return item.category.includes(parseInt(catId)) });
+    return this.blogpost = blog.filter((item: { category: number[]; }) => {
+      return item.category.includes(parseInt(catId));
+    });
   }
+
   // Tag Filter
   public setTag(id: any) {
     this.blogtags = id;
   }
+
   public getTag() {
     return this.blogtags;
   }
+
   public getPostsByTags(tagId: string) {
-    return this.blogpost = blog.filter((item: { tags: number[]; }) => { return item.tags.includes(parseInt(tagId)) });
+    return this.blogpost = blog.filter((item: { tags: number[]; }) => {
+      return item.tags.includes(parseInt(tagId));
+    });
   }
+
   // Author Filter
   public setAuthor(id: any) {
     this.author = id;
   }
+
   public getAuthors() {
     return this.author;
   }
+
   public getPostsByAuthors(authorId: string) {
-    return this.blogpost = blog.filter((item: { author: number[]; }) => { return item.author.includes(parseInt(authorId)) });
+    return this.blogpost = blog.filter((item: { author: number[]; }) => {
+      return item.author.includes(parseInt(authorId));
+    });
   }
+
   // Search Filter
   public setSearch(query: string) {
     this.searchQuery = query;
   }
+
   public getSearch() {
     return this.searchQuery;
   }
+
   public getPostsBySearch(query: string) {
     return this.blogpost = blog.filter((item: { title: (string) }) => {
-      return item.title.toLowerCase().includes(query.toLowerCase())
+      return item.title.toLowerCase().includes(query.toLowerCase());
     });
   }
+
   // Fetch All filter
   public setPosts() {
     var postsByCategory = this.getCategory() != undefined ? this.getPostsByCategory(this.getCategory()) : '',
@@ -130,14 +160,20 @@ export class BlogHelperService implements AfterContentInit, OnInit {
       this.blogpost = postsBySearch;
     }
   }
+
   // Post Details
   public setPost(id: any) {
-    this.blogdetails = blog.filter((item: { id: any; }) => { return item.id == id });
+    this.blogdetails = blog.filter((item: { id: any; }) => {
+      return item.id == id;
+    });
   }
 
   public setLastNews(id: any) {
-    this.lastnewsdetails = news.filter((item: { id: any; }) => { return item.id == id });
+    this.lastnewsdetails = news.filter((item: { id: any; }) => {
+      return item.id == id;
+    });
   }
+
   ngAfterContentInit(): void {
     this.setCategory(this.route.snapshot.params.catId);
     this.setLastNews(this.route.snapshot.params.lastNewsId);
@@ -147,6 +183,7 @@ export class BlogHelperService implements AfterContentInit, OnInit {
     this.setPosts();
     this.setPost(this.route.snapshot.params.id);
   }
+
   // Post Navigation
   public postnavigation(items: string | any[], index: number) {
     var output = [],
@@ -155,24 +192,26 @@ export class BlogHelperService implements AfterContentInit, OnInit {
       item = items[index - 1];
       id = item.id;
       // Show the previous button
-      output.push("<a href='/blog-details/" + item.id + "' class='sigma_single-pagination-item pagination-prev'> <span>Previous Post</span><h6>" + item.title.slice(0, 20) + "</h6> </a>");
+      output.push('<a href=\'/blog-details/' + item.id + '\' class=\'sigma_single-pagination-item pagination-prev\'> <span>Previous Post</span><h6>' + item.title.slice(0, 20) + '</h6> </a>');
     }
     if (items[index + 1] !== undefined && index <= items.length - 1) {
       // Show next button
       item = items[index + 1];
       id = item.id;
-      output.push("<a href='/blog-details/" + item.id + "' class='sigma_single-pagination-item pagination-next'> <span>Next Post</span><h6>" + item.title.slice(0, 20) + "</h6> </a>");
+      output.push('<a href=\'/blog-details/' + item.id + '\' class=\'sigma_single-pagination-item pagination-next\'> <span>Next Post</span><h6>' + item.title.slice(0, 20) + '</h6> </a>');
     }
 
     return output;
   }
+
   // sanitize url
   public sanitnizeAudioURL(url: string) {
-    return this.sanitizer.bypassSecurityTrustResourceUrl(url)
+    return this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
+
   // Recent post
   public changeToMonth(month: string | number | any) {
-    var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     return months[month];
   }
 
@@ -193,50 +232,53 @@ export class BlogHelperService implements AfterContentInit, OnInit {
     return elems;
   }
 
-  public lastNewsTitle(search?: string): [{title: string, photo: string, id: number}] {
+  public lastNewsTitle(search?: string): [{ title: string, photo: string, id: number }] {
     if (!search) {
-      return  news.map((n: {title: string, photo: string}) => n);
+      return news.map((n: { title: string, photo: string }) => n);
     }
-    return news.filter((n: {title: string, photo: string}) => n.title.toUpperCase().includes(search.toUpperCase()));
+    return news.filter((n: { title: string, photo: string }) => n.title.toUpperCase().includes(search.toUpperCase()));
   }
 
   ngOnInit(): void {
     this.setCategoriesCount();
     this.setDemoDate();
   }
+
   // Social Share
   public pageUrl = window.location.href;
+
   public socialShare(title: string) {
     var socialIcons = [
       {
-        title: "facebook",
-        iconstyle: "fb",
-        iconClass: "fab fa-facebook-f",
-        link: "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(this.pageUrl) + ""
+        title: 'facebook',
+        iconstyle: 'fb',
+        iconClass: 'fab fa-facebook-f',
+        link: 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(this.pageUrl) + ''
       },
       {
-        title: "twitter",
-        iconstyle: "tw",
-        iconClass: "fab fa-twitter",
-        link: "http://twitter.com/intent/tweet?text=" + encodeURIComponent(title) + "&" + encodeURIComponent(this.pageUrl) + ""
+        title: 'twitter',
+        iconstyle: 'tw',
+        iconClass: 'fab fa-twitter',
+        link: 'http://twitter.com/intent/tweet?text=' + encodeURIComponent(title) + '&' + encodeURIComponent(this.pageUrl) + ''
       },
       {
-        title: "linkedin",
-        iconstyle: "ln",
-        iconClass: "fab fa-linkedin-in",
-        link: "https://www.linkedin.com/shareArticle?mini=true&url=" + encodeURIComponent(this.pageUrl) + "&title=" + encodeURIComponent(title) + ""
+        title: 'linkedin',
+        iconstyle: 'ln',
+        iconClass: 'fab fa-linkedin-in',
+        link: 'https://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(this.pageUrl) + '&title=' + encodeURIComponent(title) + ''
       },
       {
-        title: "pinterest",
-        iconstyle: "gg",
-        iconClass: "fab fa-pinterest-p",
-        link: "http://pinterest.com/pin/create/button/?url=" + encodeURIComponent(this.pageUrl) + ""
+        title: 'pinterest',
+        iconstyle: 'gg',
+        iconClass: 'fab fa-pinterest-p',
+        link: 'http://pinterest.com/pin/create/button/?url=' + encodeURIComponent(this.pageUrl) + ''
       }
     ];
     return socialIcons;
   }
+
   openSocialPopup(social: any) {
-    window.open(social.link, "MsgWindow", "width=600,height=600")
+    window.open(social.link, 'MsgWindow', 'width=600,height=600');
   }
 
 }

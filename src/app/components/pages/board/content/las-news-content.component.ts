@@ -11,54 +11,40 @@ export class LasNewsContentComponent extends BlogHelperService {
 
   teams = [
     {
-      name: 'Manuella',
-      sur_name: 'Nevoresky',
-      function: 'CEO-FOUNDER',
+      name: 'Rosemary ',
+      sur_name: 'Fokong',
+      function: 'stellvertretende vorsitzende',
       picture: 'https://bootdey.com/img/Content/avatar/avatar7.png'
     },
     {
-      name: 'Manuella',
-      sur_name: 'Nevoresky',
-      function: 'CEO-FOUNDER',
+      name: 'Dr. Ferdinand',
+      sur_name: 'Talontsi',
+      function: 'Generalsekretär',
       picture: 'https://bootdey.com/img/Content/avatar/avatar7.png'
     },
     {
-      name: 'Manuella',
-      sur_name: 'Nevoresky',
-      function: 'CEO-FOUNDER',
+      name: 'Divine',
+      sur_name: 'Achale',
+      function: 'Schatzmeisterin',
       picture: 'https://bootdey.com/img/Content/avatar/avatar7.png'
     },
     {
-      name: 'Manuella',
-      sur_name: 'Nevoresky',
-      function: 'CEO-FOUNDER',
+      name: 'Glenn Akama',
+      sur_name: 'Eseme',
+      function: 'Koordination',
+      picture: 'https://bootdey.com/img/Content/avatar/avatar7.png'
+    },
+    {
+      name: 'Abbasse',
+      sur_name: 'So',
+      function: 'Koordination',
+      picture: 'https://bootdey.com/img/Content/avatar/avatar7.png'
+    },
+    {
+      name: 'Kevin Ndeme',
+      sur_name: 'Matuke',
+      function: 'Vorsitzender',
       picture: 'https://bootdey.com/img/Content/avatar/avatar6.png'
-    },
-    {
-      name: 'Manuella',
-      sur_name: 'Nevoresky',
-      function: 'CEO-FOUNDER',
-      picture: 'https://bootdey.com/img/Content/avatar/avatar8.png'
-    },
-    {
-      name: 'Manuella',
-      sur_name: 'Nevoresky',
-      function: 'CEO-FOUNDER',
-      picture: 'https://bootdey.com/img/Content/avatar/avatar7.png'
-    },
-    {
-      name: 'Manuella',
-      sur_name: 'Nevoresky',
-      function: 'CEO-FOUNDER',
-      picture: 'https://bootdey.com/img/Content/avatar/avatar6.png'
-    },
-    {
-      name: 'Manuella',
-      sur_name: 'Nevoresky',
-      function: 'CEO-FOUNDER',
-      picture: 'https://bootdey.com/img/Content/avatar/avatar8.png'
     }
-
-
   ];
 }

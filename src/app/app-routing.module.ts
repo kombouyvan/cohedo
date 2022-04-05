@@ -56,8 +56,13 @@ const routes: Routes = [
   },
   //completed projects
   {
-    path: 'completed-projects',
-    loadChildren: () => import('./components/pages/completed-projects/completed-projects.module').then(m => m.CompletedProjectsModule),
+    path: 'project/projects-local',
+    loadChildren: () => import('./components/pages/projects-local/local.module').then(m => m.LocalModule),
+    data: {breadcrumb: 'Locale'}
+  },
+  {
+    path: 'project/projects-international',
+    loadChildren: () => import('./components/pages/projects-international/projects-international.module').then(m => m.ProjectsInternationalModule),
     data: {breadcrumb: 'Member Ship'}
   },
   // Shop
