@@ -1420,6 +1420,10 @@ span.type-tag {
 	position: absolute;
 	right: -8px;
 }
+.header .navigation .right-side-navigation{
+  display: none;
+}
+
 .header .navigation .right-side-navigation .hamburger-menu {
 	display: none;
 	align-items: center;

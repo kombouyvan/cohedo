@@ -10,7 +10,7 @@ import { Contact } from '../../../models/contact';
 export class ContentComponent implements OnInit {
 
   model = new Contact;
-  submitted = false; 
+  submitted = false;
   error: {} | undefined;
   constructor( private contactService: ContactService ) { }
   onSubmit() {

@@ -25,7 +25,7 @@ export class BlogHelperService implements AfterContentInit, OnInit {
   public searchText: string;
   public searchQuery: string;
 
-  constructor(private router: Router, private route: ActivatedRoute, private sanitizer: DomSanitizer) {
+  constructor(private router: Router, protected route: ActivatedRoute, private sanitizer: DomSanitizer) {
     this.searchText = '';
     this.searchQuery = '';
   }

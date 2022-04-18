@@ -15,7 +15,7 @@ export class StoryHelperService implements AfterContentInit, OnInit {
   public tags = tags;
   public storydetails = storyblock;
   constructor(
-    private route: ActivatedRoute
+    protected route: ActivatedRoute
   ) {
   }
   // Tags
@@ -48,7 +48,7 @@ export class StoryHelperService implements AfterContentInit, OnInit {
     ));
   }
 
-  public recentPost() { 
+  public recentPost() {
     var elems = storyblock.filter((item: { timestamp: number | any; postdate: string | number | Date; }) => {
       return item.timestamp < new Date(item.postdate);
     });

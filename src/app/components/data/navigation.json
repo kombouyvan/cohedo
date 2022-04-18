@@ -1,65 +1,104 @@
 [
   {
     "id": 1,
-    "linkText": "Home",
+    "linkText": "Startseite",
     "link": "/",
     "child": false,
-    "submenu": [ ]
+    "submenu": []
   },
   {
     "id": 2,
-    "linkText": "ABOUT US",
+    "linkText": "Verein",
     "child": true,
     "submenu": [
       {
         "id": 2.1,
         "link": "/about",
-        "linkText": "Who We Are"
-      },
-      {
-        "id": 2.2,
-        "link": "/what-we-do",
-        "linkText": "What We Do"
+        "linkText": "Über Uns"
       },
       {
         "id": 2.3,
         "link": "/board",
-        "linkText": "Board"
+        "linkText": "Vorstand"
+      },
+      {
+        "id": 2.2,
+        "link": "/what-we-do",
+        "linkText": "Unsere Aufgaben"
       },
       {
         "id": 2.4,
         "link": "/member-ship",
-        "linkText": "Membership"
+        "linkText": "Mitglied werden"
       },
       {
         "id": 2.5,
         "link": "/volunteer",
-        "linkText": "Volunteer"
+        "linkText": "Freiwilliger werden"
       }
     ]
   },
-
+  {
+    "id": 5,
+    "linkText": "Presse",
+    "child": true,
+    "submenu": [
+      {
+        "id": 5.1,
+        "link": "/last-news",
+        "linkText": "Aktuelles"
+      },
+      {
+        "id": 5.2,
+        "link": "/social-media",
+        "linkText": "Soziale Medien"
+      },
+      {
+        "id": 5.3,
+        "link": "/informations",
+        "linkText": "Informationen"
+      },
+      {
+        "id": 5.4,
+        "link": "/service",
+        "linkText": "Service"
+      }
+    ]
+  },
   {
     "id": 3,
-    "linkText": "Project",
+    "linkText": "Projekt",
     "child": true,
     "submenu": [
       {
         "id": 3.2,
-        "linkText": "Local",
+        "linkText": "Lokale",
         "link": "/project/projects-local"
       },
       {
         "id": 3.1,
-        "linkText": "International",
+        "linkText": "Internationale",
         "link": "/project/projects-international"
       }
-
     ]
   },
   {
+    "id": 7,
+    "linkText": "Spenden",
+    "link": "/donate",
+    "child": false,
+    "submenu": []
+  },
+  {
+    "id": 6,
+    "linkText": "Kontakt",
+    "link": "/contact",
+    "child": false,
+    "submenu": []
+  },
+  {
     "id": 4,
-    "linkText": "Theme",
+    "linkText": "Thema",
     "child": true,
     "submenu": [
       {
@@ -88,47 +127,5 @@
         "linkText": "Nachhaltigkeit"
       }
     ]
-  },
-  {
-    "id": 5,
-    "linkText": "Presse",
-    "child": true,
-    "submenu": [
-      {
-        "id": 5.1,
-        "link": "/last-news",
-        "linkText": "Latest news"
-      },
-      {
-        "id": 5.2,
-        "link": "/social-media",
-        "linkText": "Social Media"
-      },
-      {
-        "id": 5.3,
-        "link": "/informations",
-        "linkText": "Informations"
-      },
-      {
-        "id": 5.4,
-        "link": "/service",
-        "linkText": "Service"
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "linkText": "Contact",
-    "link":"/contact",
-    "child": false,
-    "submenu": [ ]
-  },
-  {
-    "id": 7,
-    "linkText": "Donate",
-    "link":"/donate",
-    "child": false,
-    "submenu": []
   }
-
 ]

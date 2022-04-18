@@ -12,3 +12,17 @@
 .nav-link.active{
   background-color: #01585e;
 }
+
+.project-name{
+  font-weight: bold;
+  font-size: small;
+  /*text-align: center;*/
+}
+
+.sa-causes-single-2{
+  height: 330px;
+}
+
+.causes-details-wrap{
+  height: 78.78px;
+}

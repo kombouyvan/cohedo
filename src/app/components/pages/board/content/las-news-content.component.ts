@@ -11,6 +11,12 @@ export class LasNewsContentComponent extends BlogHelperService {
 
   teams = [
     {
+      name: 'Kevin Ndeme',
+      sur_name: 'Matuke',
+      function: 'Vorsitzender',
+      picture: 'https://bootdey.com/img/Content/avatar/avatar6.png'
+    },
+    {
       name: 'Rosemary ',
       sur_name: 'Fokong',
       function: 'stellvertretende vorsitzende',
@@ -39,12 +45,6 @@ export class LasNewsContentComponent extends BlogHelperService {
       sur_name: 'So',
       function: 'Koordination',
       picture: 'https://bootdey.com/img/Content/avatar/avatar7.png'
-    },
-    {
-      name: 'Kevin Ndeme',
-      sur_name: 'Matuke',
-      function: 'Vorsitzender',
-      picture: 'https://bootdey.com/img/Content/avatar/avatar6.png'
     }
   ];
 }

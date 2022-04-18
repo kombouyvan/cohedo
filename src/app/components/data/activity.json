@@ -1,0 +1,624 @@
+[
+  {
+    "project_id": 1,
+    "activities": [
+      {
+        "id": 0,
+        "image": "https://picsum.photos/600/600?random=1",
+        "date": "02-10-2018",
+        "project": "Gemeinsam statt alleine",
+        "description": "    Mit dem Besuch des „One World Festival 2018“ im DKH (Dietrich-Keuning-Haus) startete das\n  Projekt. Den\n Teilnehmenden wurde durch ein vielseitiges inter-kulturelles Programm, incl. kulinarischem\n                           Angebot, die\n                           Teilhabe an der städtischen Veranstaltung ermöglicht. Hierbei wurden die Beteiligten aus\n                           ihrer Isolation\n                           herausgeholt und Schwellenängste konnten abgebaut werden.",
+        "details_activities": {
+          "description": "",
+          "images": []
+        }
+      },
+      {
+        "id": 1,
+        "image": "https://picsum.photos/600/600?random=2",
+        "date": "02-11-2018",
+        "project": "Globe Café – eine Welt in der Kiste",
+        "description": "Im Projekt „Globe Café – eine Welt in der Kiste“, mit kulinarischem Essen vom bunten Kontinent, wurde nicht nur geschlemmt, sondern auch diskutiert. Zum Thema „Wie gelingt Integration“ konnten Ralf Stoltze (Bezirksbürgermeister Innenstadt-West), Olaf Mayer (Sprecher SPD Fraktion in der Bezirksvertretung Innenstadt-West) und Anne Eberle (Sprecherin für die Linke) befragt werden. Die Teilnehmenden konnten vor Ort ihre Fragen, Wünsche und Vorstellungen mit den Kommunalpolitikern besprechen.",
+        "details_activities": {
+          "description": "",
+          "images": []
+        }
+      },
+      {
+        "id": 2,
+        "image": "https://picsum.photos/600/600?random=3",
+        "date": "01-12-2018",
+        "project": "Meet & Greet – dein Engagement ist gefragt",
+        "description": " Das Projekt „Meet & Greet – dein Engagement ist gefragt“ ermöglicht die Begegnung zwischen Flüchtlingen und Neuzugewanderten mit engagierten Ehrenamtler aus der afrikanischen Szene. Hierbei konnten die Teilnehmenden die Aktivitäten der MSOs (Migrantenselbstorganisationen) und deren Akteure kennenlernen.",
+        "details_activities": {
+          "description": "",
+          "images": []
+        }
+      },
+      {
+        "id": 3,
+        "image": "https://picsum.photos/600/600?random=4",
+        "date": "24-12-2018",
+        "project": "COHEDO e.V. – Jahresfeier",
+        "description": "Die Jahresfeier wurde im festlichen Rahmen am Weihnachtsabend durchgeführt.\nFür alle Teilnehmenden wurde durch die Feier mit gemeinsamem Essen und Geschenken ein christlicher Brauch im Ankunftsland näher gebracht. Danach wurden die besten Projekte und besonders engagierte Personen des Jahres 2018 ausgezeichnet",
+        "details_activities": {
+          "description": "",
+          "images": []
+        }
+      },
+      {
+        "id": 4,
+        "image": "https://picsum.photos/600/600?random=5",
+        "date": "24-12-2018",
+        "project": "„ Deine Stimme für Integration“ - Ein Photovoice-Projekt mit Geflüchteten und Neuzugewanderter",
+        "description": "Das Projekt „Deine Stimme für Integration“ der COHEDO e.V (Community at Heart Dortmund e.V.) gehört zu einem von der „KOMM-AN NRW“ geförderten Maßnahme zur Integration der Flüchtlinge und Neuzugewanderten in NRW, in diesem Fall Dortmund. Der Raumplaner Kevin Ndeme Nguba Matuke und sein Team vom COHEDO e.V. haben mit Flüchtlingen aus Subsahara Afrika und anderen Neuzugewanderten aus dem afrikanischen Kulturkreis gesprochen.",
+        "details_activities": {
+          "description": "",
+          "images": []
+        }
+      },
+      {
+        "id": 5,
+        "image": "https://picsum.photos/600/600?random=6",
+        "date": "24-12-2018",
+        "project": "COHEDO e.V. – Jahresfeier",
+        "description": "Die Jahresfeier wurde im festlichen Rahmen am Weihnachtsabend durchgeführt.\nFür alle Teilnehmenden wurde durch die Feier mit gemeinsamem Essen und Geschenken ein christlicher Brauch im Ankunftsland näher gebracht. Danach wurden die besten Projekte und besonders engagierte Personen des Jahres 2018 ausgezeichnet.",
+        "details_activities": {
+          "description": "",
+          "images": []
+        }
+      },
+      {
+        "id": 6,
+        "image": "https://picsum.photos/600/600?random=7",
+        "date": "24-12-2018",
+        "project": "Meet & Greet – dein Engagement ist gefragt",
+        "description": "Das Projekt „Meet & Greet – dein Engagement ist gefragt“ ermöglicht die Begegnung zwischen Flüchtlingen und Neuzugewanderten mit engagierten Ehrenamtler aus der afrikanischen Szene. Hierbei konnten die Teilnehmenden die Aktivitäten der MSOs (Migrantenselbstorganisationen) und deren Akteure kennenlernen.",
+        "details_activities": {
+          "description": "",
+          "images": []
+        }
+      },
+      {
+        "id": 7,
+        "image": "https://picsum.photos/600/600?random=9",
+        "date": "24-12-2018",
+        "project": "Globe Café – eine Welt in der Kiste",
+        "description": "Im Projekt „Globe Café – eine Welt in der Kiste“, mit kulinarischem Essen vom bunten Kontinent, wurde nicht nur geschlemmt, sondern auch diskutiert. Zum Thema „Wie gelingt Integration“ konnten Ralf Stoltze (Bezirksbürgermeister Innenstadt-West), Olaf Mayer (Sprecher SPD Fraktion in der Bezirksvertretung Innenstadt-West) und Anne Eberle (Sprecherin für die Linke) befragt werden. Die Teilnehmenden konnten vor Ort ihre Fragen, Wünsche und Vorstellungen mit den Kommunalpolitikern besprechen.",
+        "details_activities": {
+          "description": "",
+          "images": []
+        }
+      },
+      {
+        "id": 8,
+        "image": "https://picsum.photos/600/600?random=10",
+        "date": "24-12-2018",
+        "project": "Gemeinsam statt alleine",
+        "description": "Mit dem Besuch des „One World Festival 2018“ im DKH (Dietrich-Keuning-Haus) startete das Projekt. Den Teilnehmenden wurde durch ein vielseitiges inter-kulturelles Programm, incl. kulinarischem Angebot, die Teilhabe an der städtischen Veranstaltung ermöglicht. Hierbei wurden die Beteiligten aus ihrer Isolation herausgeholt und Schwellenängste konnten abgebaut werden.",
+        "details_activities": {
+          "description": "",
+          "images": []
+        }
+      },
+      {
+        "id": 9,
+        "image": "https://picsum.photos/600/600?random=11",
+        "date": "24-12-2018",
+        "project": "Internationale Küche des Miteinanders Fair-binden!",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+        "details_activities": {
+          "description": "",
+          "images": []
+        }
+      },
+      {
+        "id": 9,
+        "image": "https://picsum.photos/600/600?random=12",
+        "date": "24-12-2018",
+        "project": "FRAUENTREFF „TALK TOGETHER“",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+        "details_activities": {
+          "description": "",
+          "images": []
+        }
+      },
+      {
+        "id": 10,
+        "image": "https://picsum.photos/600/600?random=13",
+        "date": "24-12-2018",
+        "project": "FAIRFRIENDS-MESSE, 06. – 09.09.2018, FOTOSBERICHT",
+        "description": "<a href=\"https://cohedo.de/wp-content/uploads/2019/07/FAIRFRIENDS-MESSE 2018_Fotoprotokoll.pdf\">FAIRFRIENDS-MESSE 2018</a>",
+        "details_activities": {
+          "description": "",
+          "images": []
+        }
+      }
+    ]
+  },
+  {
+    "project_id": 2,
+    "activities": [
+      {
+        "id": 0,
+        "image": "https://picsum.photos/600/600?random=27",
+        "date": "2018-10-02",
+        "project": "Gemeinsam statt alleine",
+        "description": "Mit dem Besuch des „One World Festival 2018“ im DKH (Dietrich-Keuning-Haus) startete das\nProjekt. Den\nTeilnehmenden wurde durch ein vielseitiges inter-kulturelles Programm, incl. kulinarischem\n  Angebot, die\n Teilhabe an der städtischen Veranstaltung ermöglicht. Hierbei wurden die Beteiligten aus\nihrer Isolation\n herausgeholt und Schwellenängste konnten abgebaut werden.",
+        "activity_details": [
+          {
+            "project_id": 1,
+            "description": "",
+            "images": []
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "image": "https://picsum.photos/600/600?random=55",
+        "date": "2018-11-02",
+        "project": "Globe Café – eine Welt in der Kiste",
+        "description": "Im Projekt „Globe Café – eine Welt in der Kiste“, mit kulinarischem Essen vom bunten Kontinent, wurde nicht nur geschlemmt, sondern auch diskutiert. Zum Thema „Wie gelingt Integration“ konnten Ralf Stoltze (Bezirksbürgermeister Innenstadt-West), Olaf Mayer (Sprecher SPD Fraktion in der Bezirksvertretung Innenstadt-West) und Anne Eberle (Sprecherin für die Linke) befragt werden. Die Teilnehmenden konnten vor Ort ihre Fragen, Wünsche und Vorstellungen mit den Kommunalpolitikern besprechen.",
+        "activity_details": [
+          {
+            "project_id": 1,
+            "description": "",
+            "images": []
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "image": "https://picsum.photos/600/600?random=45",
+        "date": "2018-12-01",
+        "project": "Meet & Greet – dein Engagement ist gefragt",
+        "description": " Das Projekt „Meet & Greet – dein Engagement ist gefragt“ ermöglicht die Begegnung zwischen Flüchtlingen und Neuzugewanderten mit engagierten Ehrenamtler aus der afrikanischen Szene. Hierbei konnten die Teilnehmenden die Aktivitäten der MSOs (Migrantenselbstorganisationen) und deren Akteure kennenlernen.",
+        "activity_details": [
+          {
+            "project_id": 1,
+            "description": "",
+            "images": []
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "image": "https://picsum.photos/600/600?random=25",
+        "date": "2018-12-24",
+        "project": "COHEDO e.V. – Jahresfeier",
+        "description": "Die Jahresfeier wurde im festlichen Rahmen am Weihnachtsabend durchgeführt.\nFür alle Teilnehmenden wurde durch die Feier mit gemeinsamem Essen und Geschenken ein christlicher Brauch im Ankunftsland näher gebracht. Danach wurden die besten Projekte und besonders engagierte Personen des Jahres 2018 ausgezeichnet",
+        "activity_details": [
+          {
+            "project_id": 1,
+            "description": "",
+            "images": []
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "image": "https://picsum.photos/600/600?random=8",
+        "date": "2018-12-24",
+        "project": "„ Deine Stimme für Integration“ - Ein Photovoice-Projekt mit Geflüchteten und Neuzugewanderter",
+        "description": "Das Projekt „Deine Stimme für Integration“ der COHEDO e.V (Community at Heart Dortmund e.V.) gehört zu einem von der „KOMM-AN NRW“ geförderten Maßnahme zur Integration der Flüchtlinge und Neuzugewanderten in NRW, in diesem Fall Dortmund. Der Raumplaner Kevin Ndeme Nguba Matuke und sein Team vom COHEDO e.V. haben mit Flüchtlingen aus Subsahara Afrika und anderen Neuzugewanderten aus dem afrikanischen Kulturkreis gesprochen.",
+        "activity_details": [
+          {
+            "project_id": 1,
+            "description": "",
+            "images": []
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "image": "https://picsum.photos/600/600?random=9",
+        "date": "2018-12-24",
+        "project": "COHEDO e.V. – Jahresfeier",
+        "description": "Die Jahresfeier wurde im festlichen Rahmen am Weihnachtsabend durchgeführt.\nFür alle Teilnehmenden wurde durch die Feier mit gemeinsamem Essen und Geschenken ein christlicher Brauch im Ankunftsland näher gebracht. Danach wurden die besten Projekte und besonders engagierte Personen des Jahres 2018 ausgezeichnet.",
+        "activity_details": [
+          {
+            "project_id": 1,
+            "description": "",
+            "images": []
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "image": "https://picsum.photos/600/600?random=10",
+        "date": "2018-12-01",
+        "project": "Meet & Greet – dein Engagement ist gefragt",
+        "description": "Das Projekt „Meet & Greet – dein Engagement ist gefragt“ ermöglicht die Begegnung zwischen Flüchtlingen und Neuzugewanderten mit engagierten Ehrenamtler aus der afrikanischen Szene. Hierbei konnten die Teilnehmenden die Aktivitäten der MSOs (Migrantenselbstorganisationen) und deren Akteure kennenlernen.",
+        "activity_details": [
+          {
+            "project_id": 1,
+            "description": "",
+            "images": []
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "image": "https://picsum.photos/600/600?random=11",
+        "date": "2018-11-02",
+        "project": "Globe Café – eine Welt in der Kiste",
+        "description": "Im Projekt „Globe Café – eine Welt in der Kiste“, mit kulinarischem Essen vom bunten Kontinent, wurde nicht nur geschlemmt, sondern auch diskutiert. Zum Thema „Wie gelingt Integration“ konnten Ralf Stoltze (Bezirksbürgermeister Innenstadt-West), Olaf Mayer (Sprecher SPD Fraktion in der Bezirksvertretung Innenstadt-West) und Anne Eberle (Sprecherin für die Linke) befragt werden. Die Teilnehmenden konnten vor Ort ihre Fragen, Wünsche und Vorstellungen mit den Kommunalpolitikern besprechen.",
+        "activity_details": [
+          {
+            "project_id": 1,
+            "description": "",
+            "images": []
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "image": "https://picsum.photos/600/600?random=12",
+        "date": "2018-10-02",
+        "project": "Gemeinsam statt alleine",
+        "description": "Mit dem Besuch des „One World Festival 2018“ im DKH (Dietrich-Keuning-Haus) startete das Projekt. Den Teilnehmenden wurde durch ein vielseitiges inter-kulturelles Programm, incl. kulinarischem Angebot, die Teilhabe an der städtischen Veranstaltung ermöglicht. Hierbei wurden die Beteiligten aus ihrer Isolation herausgeholt und Schwellenängste konnten abgebaut werden.",
+        "activity_details": [
+          {
+            "project_id": 1,
+            "description": "",
+            "images": []
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "image": "https://picsum.photos/600/600?random=15",
+        "date": "2018-10-02",
+        "project": "FAIRFRIENDS-MESSE, 06. – 09.09.2018, FOTOSBERICHT",
+        "description": "<a href=\"https://cohedo.de/wp-content/uploads/2019/07/FAIRFRIENDS-MESSE 2018_Fotoprotokoll.pdf\">FAIRFRIENDS-MESSE 2018</a> \n ",
+        "activity_details": [
+          {
+            "project_id": 1,
+            "description": "",
+            "images": []
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "image": "https://picsum.photos/600/600?random=13",
+        "date": "2018-10-02",
+        "project": "Internationale Küche des Miteinanders Fair-binden!",
+        "description": "Mit dem Besuch des „One World Festival 2018“ im DKH (Dietrich-Keuning-Haus) startete das Projekt. Den Teilnehmenden wurde durch ein vielseitiges inter-kulturelles Programm, incl. kulinarischem Angebot, die Teilhabe an der städtischen Veranstaltung ermöglicht. Hierbei wurden die Beteiligten aus ihrer Isolation herausgeholt und Schwellenängste konnten abgebaut werden.",
+        "activity_details": [
+          {
+            "project_id": 1,
+            "description": "",
+            "images": []
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "image": "https://picsum.photos/600/600?random=14",
+        "date": "2018-10-02",
+        "project": "FRAUENTREFF „TALK TOGETHER“",
+        "description": "Mit dem Besuch des „One World Festival 2018“ im DKH (Dietrich-Keuning-Haus) startete das Projekt. Den Teilnehmenden wurde durch ein vielseitiges inter-kulturelles Programm, incl. kulinarischem Angebot, die Teilhabe an der städtischen Veranstaltung ermöglicht. Hierbei wurden die Beteiligten aus ihrer Isolation herausgeholt und Schwellenängste konnten abgebaut werden.",
+        "activity_details": [
+          {
+            "project_id": 1,
+            "description": "",
+            "images": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "project_id": 3,
+    "activities": [
+      {
+        "id": 0,
+        "tag": "Ausflug",
+        "image": "/assets/img/projets/Mit-Pastoren-in-Berlin-web-780x520.jpg",
+        "date": "26-07-2019",
+        "project": "Pastoren Ausflug",
+        "description": "    Mit dem Besuch des „One World Festival 2018“ im DKH (Dietrich-Keuning-Haus) startete das\n                           Projekt. Den\n                           Teilnehmenden wurde durch ein vielseitiges inter-kulturelles Programm, incl. kulinarischem\n                           Angebot, die\n                           Teilhabe an der städtischen Veranstaltung ermöglicht. Hierbei wurden die Beteiligten aus\n                           ihrer Isolation\n                           herausgeholt und Schwellenängste konnten abgebaut werden.",
+        "details_activities": {
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+          "images": [
+            "/assets/img/details_activities/details_activity-0.jpg"
+          ]
+        }
+      },
+      {
+        "id": 1,
+        "tag": "Maßnahme",
+        "image": "/assets/img/projets/Pastoren_Schulung-2.jpg",
+        "date": "03-07-2019",
+        "project": "Pastoren Schulung",
+        "description": "    Mit dem Besuch des „One World Festival 2018“ im DKH (Dietrich-Keuning-Haus) startete das\n  Projekt. Den\n Teilnehmenden wurde durch ein vielseitiges inter-kulturelles Programm, incl. kulinarischem\nAngebot, die\n  Teilhabe an der städtischen Veranstaltung ermöglicht. Hierbei wurden die Beteiligten aus\n ihrer Isolation\n herausgeholt und Schwellenängste konnten abgebaut werden.",
+        "details_activities": {
+          "description": "",
+          "images": [
+            "/assets/img/details_activities/details_activity-1.jpg",
+            "/assets/img/details_activities/details_activity-1.1.jpg",
+            "/assets/img/details_activities/details_activity-1.2.jpg",
+            "/assets/img/details_activities/details_activity-1.3.jpg",
+            "/assets/img/details_activities/details_activity-1.4.jpg",
+            "/assets/img/details_activities/details_activity-1.5.jpg",
+            "/assets/img/details_activities/details_activity-1.6.jpg",
+            "/assets/img/details_activities/details_activity-1.7.jpg",
+            "/assets/img/details_activities/details_activity-1.8.jpg"
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "tag": "AIDS-Hilfe,Deine Gesundheit - Dein Glaube,HIV",
+        "image": "/assets/img/projets/20181223_172840-780x520.jpg",
+        "date": "19-06-2019",
+        "project": "Your Health, Your Faith – HIV Prevention In African Church Communities",
+        "description": "HIV-Prävention in afrikanischen Kirchengemeinden“ ist ein Projekt der Deutschen AIDS-Hilfe e. V. (DAH)",
+        "details_activities": {
+          "description": "<p>Deine Gesundheit, Dein Glaube – HIV-Prävention in afrikanischen Kirchengemeinden ist ein Projekt der Deutschen AIDS-Hilfe e. V. (DAH)</p> <p>Dauer: 2015 – 2019</p><h3>Projektbeschreibung</h3><p>„Deine Gesundheit, Dein Glaube“ (2015 – 2019) ist ein partizipatives Projekt, das zum Ziel hat, Menschen aus Ländern Sub-Sahara-Afrikas über bestehende Präventions-, Testung- und Behandlungsangebote in Deutschland zu informieren sowie ihre Solidarität mit betroffenen Menschen zu fördern. Das Projekt wird von der Deutschen AIDS-Hilfe (DAH) in enger Kooperation mit dem Afrikanischen <a href=\"https://www.hiv-migration.de/content/aghnid\" target=\"_blank\" rel=\"noopener noreferrer\">Gesundheits-&amp;HIV Netzwerk in Deutschland (AGHNiD)</a>, afrikanischen Pastoren, Aidshilfen und Gesundheitsämtern an acht Standorten (Berlin, Bremen, Essen, Saarbrücken, Hamburg, Dortmund, Magdeburg und Köln) umgesetzt. Die beteiligten Community-Partner_innen werden fachlich und methodisch unterstützt, HIV-Prävention in afrikanischen Kirchengemeinden partizipativ umzusetzen.</p><p><strong>Kontakt</strong><br>\n<span class=\"color\">COHEDO</span> – Community at Heart Dortmund e.V.<br>\nWittener Straße 55,<br>\n44149 Dortmund</p><p>Mobil: +49 176 22880238<br>\nEmail: kontakt@cohedo.de<br>\nWebseite: www.cohedo.de</p>",
+          "images": [],
+          "tag": true
+        }
+      },
+      {
+        "id": 3,
+        "tag": "Deine Gesundheit - Dein Glaube",
+        "image": "/assets/img/projets/20181121_205546-780x520.jpg",
+        "date": "02-03-2019",
+        "project": "Your Health, Your Faith – HIV Prevention In African Church Communities",
+        "description": "Deine Gesundheit, Dein Glaube, HIV-Prävention in afrikanischen Kirchengemeinden“",
+        "details_activities": {
+          "description": "",
+          "images": [
+            "/assets/img/details_activities/details_activity-1.jpg",
+            "/assets/img/details_activities/details_activity-3.1.jpg",
+            "/assets/img/details_activities/details_activity-3.2.jpg",
+            "/assets/img/details_activities/details_activity-3.3.jpg",
+            "/assets/img/details_activities/details_activity-3.4.jpg",
+            "/assets/img/details_activities/details_activity-3.5.jpg",
+            "/assets/img/details_activities/details_activity-3.6.jpg",
+            "/assets/img/details_activities/details_activity-3.7.jpg",
+            "/assets/img/details_activities/details_activity-3.8.jpg",
+            "/assets/img/details_activities/details_activity-3.9.jpg"
+          ],
+          "tag": true
+        }
+      }
+    ]
+  },
+  {
+    "project_id": 4,
+    "activities": [
+      {
+        "id": 0,
+        "tag": "Jugendprogramm",
+        "image": "/assets/img/projets/project-3.jpg",
+        "date": "01-09-2019",
+        "project": "Jugend und Engagement",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "details_activities": {
+          "description": "",
+          "images": [
+            "/assets/img/details_activities/details_activity-4.1.jpg"
+          ]
+        }
+      },
+      {
+        "id": 1,
+        "tag": "Jugendprogramm",
+        "image": "/assets/img/projets/project-3.1.jpg",
+        "date": "23-08-2019",
+        "project": "Dorstfelder Ferienspiele",
+        "description": "Dorstfelder Ferienspiele",
+        "details_activities": {
+          "description": "",
+          "images": [
+            "/assets/img/details_activities/details_activity-4.2.jpg",
+            "/assets/img/details_activities/details_activity-4.2.0.jpg",
+            "/assets/img/details_activities/details_activity-4.2.1.jpg",
+            "/assets/img/details_activities/details_activity-4.2.2.jpg",
+            "/assets/img/details_activities/details_activity-4.2.3.jpg",
+            "/assets/img/details_activities/details_activity-4.2.4.jpg",
+            "/assets/img/details_activities/details_activity-4.2.5.jpg",
+            "/assets/img/details_activities/details_activity-4.2.6.jpg"
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "tag": "Aktion,Dorstfeld",
+        "image": "/assets/img/projets/COHEDO-Aktion-Dorstfeld-780x520.jpg",
+        "date": "23-08-2019",
+        "project": "Demokratiefestival Vielfalt lieben – Dorstfeld",
+        "description": "Demokratiefestival Vielfalt lieben, (Dorstfeld)",
+        "details_activities": {
+          "description": "",
+          "images": []
+        }
+      }
+    ]
+  },
+  {
+    "project_id": 5,
+    "activities": [
+      {
+        "id": 0,
+        "tag": "Maßnahme",
+        "image": "/assets/img/projets/project-5.jpg",
+        "date": "28-10-2019",
+        "project": "Interkultureller Familienausflug",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "details_activities": {
+          "description": "",
+          "images": [
+            "/assets/img/details_activities/activity-5/activity-0.jpg",
+            "/assets/img/details_activities/activity-5/activity-1.jpg"
+          ]
+        }
+      },
+      {
+        "id": 1,
+        "tag": "Maßnahme",
+        "image": "/assets/img/projets/project-5.1.jpg",
+        "date": "31-07-2019",
+        "project": "Ausflug zum Imker",
+        "description": "Demokratiefestival Vielfalt lieben, (Dorstfeld)",
+        "details_activities": {
+          "description": "",
+          "images": [
+            "/assets/img/details_activities/activity-5/activity-2.jpg",
+            "/assets/img/details_activities/activity-5/activity-2.1.jpg",
+            "/assets/img/details_activities/activity-5/activity-2.2.jpg",
+            "/assets/img/details_activities/activity-5/activity-2.3.jpg",
+            "/assets/img/details_activities/activity-5/activity-2.4.jpg",
+            "/assets/img/details_activities/activity-5/activity-2.5.jpg",
+            "/assets/img/details_activities/activity-5/activity-2.6.jpg",
+            "/assets/img/details_activities/activity-5/activity-2.7.jpg"
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "tag": "Frauentreff, Maßnahme, Workshop",
+        "image": "/assets/img/projets/project-5.2.jpg",
+        "date": "26-07-2019",
+        "project": "Workshop – Deine Gesundheit, Deine Rechte",
+        "description": "Workshop – Deine Gesundheit, Deine Rechte",
+        "details_activities": {
+          "description": "",
+          "images": [
+            "/assets/img/details_activities/activity-5/activity-2.jpg",
+            "/assets/img/details_activities/activity-5/activity-2.1.jpg",
+            "/assets/img/details_activities/activity-5/activity-2.2.jpg",
+            "/assets/img/details_activities/activity-5/activity-2.3.jpg",
+            "/assets/img/details_activities/activity-5/activity-2.4.jpg",
+            "/assets/img/details_activities/activity-5/activity-2.5.jpg",
+            "/assets/img/details_activities/activity-5/activity-2.6.jpg",
+            "/assets/img/details_activities/activity-5/activity-2.7.jpg"
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "tag": "Frauentreff",
+        "image": "/assets/img/projets/project-5.3.jpg",
+        "date": "17-07-2019",
+        "project": "Frauentreff „Talk Together“",
+        "description": "Der Frauentreff „Talk Together“ bietet in ungezwungener Atmosphäre einen Ort der Begegnung, des Austauschs, des Kennenlernens sowie verschiedene Workshops an. Jede/r Teilnehmer/in ist herzlich willkommen. Daneben besteht für einzelne Personen oder Gruppen die Möglichkeit, je nach Bedarf vertiefende Workshops mit besonderen Inhalten und Schwerpunkten durchzuführen.",
+        "details_activities": {
+          "description": "Der Frauentreff „Talk Together“ bietet in ungezwungener Atmosphäre einen Ort der Begegnung, des Austauschs, des Kennenlernens sowie verschiedene Workshops an. Jede/r Teilnehmer/in ist herzlich willkommen. Daneben besteht für einzelne Personen oder Gruppen die Möglichkeit, je nach Bedarf vertiefende Workshops mit besonderen Inhalten und Schwerpunkten durchzuführen.\n\nFreiwilliges Engagement spielt eine wichtige Rolle in unserer Gesellschaft und ganz besonders im Integrationsprozess. Für ehrenamtlich engagierte Personen bieten wir ein vielseitiges kostenloses Schulungsangebot an, um Kompetenzen zu stärken und Erfahrungen zu erweitern.\n\nBei der Konzeption des Projektes sollten in erster Linie in Dortmund-Dorstfeld lebende MISSA-Migranten aus Sub-Sahara Afrika angesprochen werden. Die meisten davon sind Eltern und häufig alleinerziehend. Da Integration auch durch ehrenamtliches Engagement unterstützt wird, ist es uns wichtig, dass unser Angebot alle interessierte Personen und Vereine jeglicher Nationalität anspricht und zu einem regen Austausch führt.\n\nDie Angebote sollen auch viele Afrikaner/innen zur ehrenamtlichen Mitarbeit motivieren. Die bereits engagierten Personen werden weiter geschult und in diversen Kompetenzen fortgebildet. Die Treffen und Workshops finden in zentraler Lage in Dortmund statt. Die Veranstaltungen sind mit öffentlichen Verkehrsmitteln sehr gut erreichbar.",
+          "images": [
+            "/assets/img/details_activities/activity-5/activity-3.jpg",
+            "/assets/img/details_activities/activity-5/activity-3.1.jpg",
+            "/assets/img/details_activities/activity-5/activity-3.2.jpg",
+            "/assets/img/details_activities/activity-5/activity-3.3.jpg",
+            "/assets/img/details_activities/activity-5/activity-3.4.jpg",
+            "/assets/img/details_activities/activity-5/activity-3.5.jpg"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "project_id": 6,
+    "activities": [
+      {
+        "id": 0,
+        "tag": "Maßnahme",
+        "image": "/assets/img/projets/project-6.jpg",
+        "date": "28-10-2019",
+        "project": "Münsterstraßenfest des Integrationsrates der Stadt Dortmund",
+        "description": "Münsterstraßenfest des Integrationsrates der Stadt Dortmund",
+        "details_activities": {
+          "description": "Made by Me – Upcycling für Jugendliche des Community at Heart Dortmund e.V. (Bereich nachhaltiger Entwicklung)\nDauer: 2017 – 2020",
+          "images": [
+            "/assets/img/details_activities/activity-6/activity-6.0.jpg"
+          ]
+        }
+      },
+      {
+        "id": 1,
+        "tag": "Maßnahme",
+        "image": "/assets/img/projets/project-6.1.jpg",
+        "date": "28-10-2019",
+        "project": "Mein Dortmund-politisch-sozial-historisch, „Ein Ausflug ins Dortmunder Rathaus“",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "details_activities": {
+          "description": "Made by Me – Upcycling für Jugendliche des Community at Heart Dortmund e.V. (Bereich nachhaltiger Entwicklung)\nDauer: 2017 – 2020",
+          "images": [
+            "/assets/img/details_activities/activity-6/activity-6.1.jpg",
+            "/assets/img/details_activities/activity-6/activity-6.1.jpg"
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "tag": "Maßnahme",
+        "image": "/assets/img/projets/project-6.2.jpg",
+        "date": "22-08-2019",
+        "project": "Essen verbindet Menschen und Kulturen",
+        "description": "Auch in diesem Jahr wird COHEDO für einen guten Zweck kochen im Rahmen der Dorstfelder Ferienspiele.",
+        "details_activities": {
+          "description": "<div class=\"entry-content\"><p>Essen verbindet Menschen und Kulturen – Integration mit Rezept<br>\nAuf der Menükarte: Jollof Rice, Gebratenes Kochbanane und Teigbällchen</p>\n<p>Auch in diesem Jahr wird COHEDO für einen guten Zweck kochen im Rahmen der Dorstfelder Ferienspiele.</p>\n<p><strong>Wo</strong>: Schulte-Witten-Park in Dorstfeld</p>\n<p><strong>Datum</strong>: 23.August 2019</p>\n<p><strong>Uhrzeit</strong>: Zwischen 11 bis 16 Uhr (Mittagessen ist 13-14 Uhr)</p>\n<p>Alle Kinder und Jugendliche aus der Nachbarschaft sind für eine afrikanische warme Mahlzeit, von 13 bis 14 Uhr im Schulte-Witten-Park in Dorstfeld, herzlich eingeladen.</p>\n<p>Cohedo „We are passionate about our community“</p>\n<p>UNTERSTÜTZER<br>\n<img loading=\"lazy\" class=\"alignnone size-thumbnail wp-image-115\" src=\"https://cohedo.de/wp-content/uploads/2019/06/komm-an-logo-150x150.jpg\" alt=\"\" width=\"150\" height=\"150\"></p>\n<p>PARTNER</p>\t<style type=\"text/css\">\t#gallery-1 {\tmargin: auto;\t}\t#gallery-1 .gallery-item {\tfloat: left;\tmargin-top: 10px;\ttext-align: center;\twidth: 33%;}#gallery-1 img {border: 2px solid #cfcfcf;}#gallery-1 .gallery-caption {margin-left: 0;}/* see gallery_shortcode() in wp-includes/media.php */</style><div id=\"gallery-1\" class=\"gallery galleryid-511 gallery-columns-3 gallery-size-thumbnail\"><dl class=\"gallery-item\"><dt class=\"gallery-icon landscape\"><img width=\"150\" height=\"150\" src=\"https://cohedo.de/wp-content/uploads/2019/08/idv-Logo-150x150.png\" class=\"attachment-thumbnail size-thumbnail\" alt=\"\" loading=\"lazy\"></dt></dl><dl class=\"gallery-item\"><dt class=\"gallery-icon landscape\"><img width=\"150\" height=\"150\" src=\"https://cohedo.de/wp-content/uploads/2019/07/InnenstadtWest-150x150.jpg\" class=\"attachment-thumbnail size-thumbnail\" alt=\"\" loading=\"lazy\"></dt></dl><br style=\"clear: both\"></div><p><img loading=\"lazy\" class=\"alignnone size-full wp-image-510\" src=\"https://cohedo.de/wp-content/uploads/2019/08/Essen-verbindet-Menschen-Kulturen-FlyerWeb.jpg\" alt=\"\" width=\"851\" height=\"1200\" srcset=\"https://cohedo.de/wp-content/uploads/2019/08/Essen-verbindet-Menschen-Kulturen-FlyerWeb.jpg 851w, https://cohedo.de/wp-content/uploads/2019/08/Essen-verbindet-Menschen-Kulturen-FlyerWeb-213x300.jpg 213w, https://cohedo.de/wp-content/uploads/2019/08/Essen-verbindet-Menschen-Kulturen-FlyerWeb-768x1083.jpg 768w, https://cohedo.de/wp-content/uploads/2019/08/Essen-verbindet-Menschen-Kulturen-FlyerWeb-726x1024.jpg 726w, https://cohedo.de/wp-content/uploads/2019/08/Essen-verbindet-Menschen-Kulturen-FlyerWeb-780x1100.jpg 780w\" sizes=\"(max-width: 851px) 100vw, 851px\"></p>\t</div>",
+          "images": [
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "tag": "Flüchtlingshilfe",
+        "image": "/assets/img/projets/project-6.3.jpg",
+        "date": "19-06-2019",
+        "project": "KOMM-AN NRW 2019",
+        "description": "Projekt Titel: „Aufsuchende Integrationsarbeit für Flüchtlinge und Migranten in Dortmund Dorstfeld“",
+        "details_activities": {
+          "description": "<div class=\"entry-content\"><p>Essen verbindet Menschen und Kulturen – Integration mit Rezept<br>Auf der Menükarte: Jollof Rice, Gebratenes Kochbanane und Teigbällchen</p><p>Auch in diesem Jahr wird COHEDO für einen guten Zweck kochen im Rahmen der Dorstfelder Ferienspiele.</p><p><strong>Wo</strong>: Schulte-Witten-Park in Dorstfeld</p><p><strong>Datum</strong>: 23.August 2019</p><p><strong>Uhrzeit</strong>: Zwischen 11 bis 16 Uhr (Mittagessen ist 13-14 Uhr)</p><p>Alle Kinder und Jugendliche aus der Nachbarschaft sind für eine afrikanische warme Mahlzeit, von 13 bis 14 Uhr im Schulte-Witten-Park in Dorstfeld, herzlich eingeladen.</p><p>Cohedo „We are passionate about our community“</p><p>UNTERSTÜTZER<br><img loading=\"lazy\" class=\"alignnone size-thumbnail wp-image-115\" src=\"https://cohedo.de/wp-content/uploads/2019/06/komm-an-logo-150x150.jpg\"  width=\"150\" height=\"150\"></p><p>PARTNER</p><style type=\"text/css\">#gallery-1 {margin: auto;}#gallery-1 .gallery-item {float: left;margin-top: 10px;text-align: center;width: 33%;}#gallery-1 img {border: 2px solid #cfcfcf;}#gallery-1 .gallery-caption {margin-left: 0;}</style><div id=\"gallery-1\" class=\"gallery galleryid-511 gallery-columns-3 gallery-size-thumbnail\"><dl class=\"gallery-item\">\t<dt class=\"gallery-icon landscape\"><img width=\"150\" height=\"150\" src=\"https://cohedo.de/wp-content/uploads/2019/08/idv-Logo-150x150.png\" class=\"attachment-thumbnail size-thumbnail\" loading=\"lazy\"></dt></dl><dl class=\"gallery-item\"><dt class=\"gallery-icon landscape\"><img width=\"150\" height=\"150\" src=\"https://cohedo.de/wp-content/uploads/2019/07/InnenstadtWest-150x150.jpg\" class=\"attachment-thumbnail size-thumbnail\" alt=\"\" loading=\"lazy\"></dt></dl><br style=\"clear: both\"></div><p><img loading=\"lazy\" class=\"alignnone size-full wp-image-510\" src=\"https://cohedo.de/wp-content/uploads/2019/08/Essen-verbindet-Menschen-Kulturen-FlyerWeb.jpg\" alt=\"\" width=\"851\" height=\"1200\" srcset=\"https://cohedo.de/wp-content/uploads/2019/08/Essen-verbindet-Menschen-Kulturen-FlyerWeb.jpg 851w, https://cohedo.de/wp-content/uploads/2019/08/Essen-verbindet-Menschen-Kulturen-FlyerWeb-213x300.jpg 213w, https://cohedo.de/wp-content/uploads/2019/08/Essen-verbindet-Menschen-Kulturen-FlyerWeb-768x1083.jpg 768w, https://cohedo.de/wp-content/uploads/2019/08/Essen-verbindet-Menschen-Kulturen-FlyerWeb-726x1024.jpg 726w, https://cohedo.de/wp-content/uploads/2019/08/Essen-verbindet-Menschen-Kulturen-FlyerWeb-780x1100.jpg 780w\" sizes=\"(max-width: 851px) 100vw, 851px\"></p></div>",
+          "images": [
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "project_id": 7,
+    "activities": [
+      {
+        "id": 0,
+        "tag": "Jugendprogramm",
+        "image": "/assets/img/projets/project-7.jpg",
+        "date": "19-06-2019",
+        "project": "Projekt Made by Me",
+        "description": "Made by Me – Upcycling für Jugendliche des Community at Heart Dortmund e.V. (Bereich nachhaltiger Entwicklung)\nDauer: 2017 – 2020",
+        "details_activities": {
+          "description": "Made by Me – Upcycling für Jugendliche des Community at Heart Dortmund e.V. (Bereich nachhaltiger Entwicklung)\nDauer: 2017 – 2020",
+          "images": [
+            "src/assets/img/details_activities/activity-7/project-7.jpg",
+            "src/assets/img/details_activities/activity-7/project-7.0.jpg",
+            "src/assets/img/details_activities/activity-7/project-7.1.jpg",
+            "src/assets/img/details_activities/activity-7/project-7.2.jpg",
+            "src/assets/img/details_activities/activity-7/project-7.3.jpg",
+            "src/assets/img/details_activities/activity-7/project-7.7.jpg"
+          ]
+        }
+      },
+      {
+        "id": 1,
+        "tag": "Jugendprogramm",
+        "image": "/assets/img/projets/project-6.1.jpg",
+        "date": "28-05-2019",
+        "project": "Verleihung Made By Me",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "details_activities": {
+          "description": "Made by Me – Upcycling für Jugendliche des Community at Heart Dortmund e.V. (Bereich nachhaltiger Entwicklung)\nDauer: 2017 – 2020",
+          "images": [
+            "src/assets/img/details_activities/activity-7.1/project-7.1.0.jpg",
+            "src/assets/img/details_activities/activity-7.1/project-7.1.1.jpg",
+            "src/assets/img/details_activities/activity-7.1/project-7.1.2.jpg",
+            "src/assets/img/details_activities/activity-7.1/project-7.1.3.jpg"
+          ]
+        }
+      }
+    ]
+  }
+]

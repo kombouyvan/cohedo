@@ -28,7 +28,7 @@ const routes: Routes = [
   {
     path: 'about',
     loadChildren: () => import('./components/pages/about/about.module').then(m => m.AboutModule),
-    data: {breadcrumb: 'About Us'}
+    data: {breadcrumb: 'Über uns'}
   },
   //What we do
   {
@@ -40,30 +40,35 @@ const routes: Routes = [
   {
     path: 'volunteer',
     loadChildren: () => import('./components/pages/volunteer/volunteer.module').then(m => m.VolunteerModule),
-    data: {breadcrumb: 'Volunteer'}
+    data: {breadcrumb: 'Freiwillige'}
   },
   //Board
   {
     path: 'board',
     loadChildren: () => import('./components/pages/board/board.module').then(m => m.BoardModule),
-    data: {breadcrumb: 'Board'}
+    data: {breadcrumb: 'Vorstand'}
   },
-  //member ship
+  //Mitglied werden
   {
     path: 'member-ship',
     loadChildren: () => import('./components/pages/member-ship/member-ship.module').then(m => m.MemberShipModule),
-    data: {breadcrumb: 'Member Ship'}
+    data: {breadcrumb: 'Mitglied werden'}
   },
-  //completed projects
+
   {
     path: 'project/projects-local',
     loadChildren: () => import('./components/pages/projects-local/local.module').then(m => m.LocalModule),
     data: {breadcrumb: 'Locale'}
   },
   {
+    path: 'project/projects-local/:id',
+    loadChildren: () => import('./components/pages/project-local-details/project-local-details.module').then(m => m.ProjectLocalDetailsModule),
+    data: {breadcrumb: 'Locale'}
+  },
+  {
     path: 'project/projects-international',
     loadChildren: () => import('./components/pages/projects-international/projects-international.module').then(m => m.ProjectsInternationalModule),
-    data: {breadcrumb: 'Member Ship'}
+    data: {breadcrumb: 'Mitglied werden'}
   },
   // Shop
   {
@@ -79,7 +84,7 @@ const routes: Routes = [
   {
     path: 'last-news',
     loadChildren: () => import('./components/pages/home/last-news/last-news.module').then(m => m.LastNewsModule),
-    data: {breadcrumb: 'Last News'}
+    data: {breadcrumb: 'Aktuelles'}
   },
   {
     path: 'last-news/:lastNewsId',
@@ -142,7 +147,7 @@ const routes: Routes = [
   {
     path: 'contact',
     loadChildren: () => import('./components/pages/contact/contact.module').then(m => m.ContactModule),
-    data: {breadcrumb: 'Contact'}
+    data: {breadcrumb: 'Kontakt'}
   },
   {
     path: 'login',
@@ -176,7 +181,7 @@ const routes: Routes = [
     data: {breadcrumb: 'Blog Left'}
   },
   {
-    path: 'blog-left',
+    path: 'content',
     loadChildren: () => import('./components/pages/blog-left/blog-left.module').then(m => m.BlogLeftModule),
     data: {breadcrumb: 'Blog Left'}
   },
@@ -202,7 +207,7 @@ const routes: Routes = [
     data: {breadcrumb: 'Story Archive'}
   },
   {
-    path: 'story-details/:id',
+    path: 'activity-details/:activity_id/:project_id',
     loadChildren: () => import('./components/pages/story-details/story-details.module').then(m => m.StoryDetailsModule),
     data: {breadcrumb: 'Story Details'}
   },

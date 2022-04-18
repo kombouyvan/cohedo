@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+
+
 
 @Component({
   selector: 'app-story-details',
@@ -6,10 +8,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./story-details.component.css']
 })
 export class StoryDetailsComponent implements OnInit {
-
-  constructor() { }
-
   ngOnInit(): void {
   }
+
+
 
 }

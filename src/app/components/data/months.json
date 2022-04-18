@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "month": "January"
+    "month": "Januar"
   },
   {
     "id": 1,
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "month": "March"
+    "month": "März"
   },
   {
     "id": 3,
@@ -17,15 +17,15 @@
   },
   {
     "id": 4,
-    "month": "May"
+    "month": "Mai"
   },
   {
     "id": 5,
-    "month": "June"
+    "month": "Juni"
   },
   {
     "id": 6,
-    "month": "July"
+    "month": "Juli"
   },
   {
     "id": 7,
@@ -37,7 +37,7 @@
   },
   {
     "id": 9,
-    "month": "October"
+    "month": "Oktober"
   },
   {
     "id": 10,
@@ -45,6 +45,8 @@
   },
   {
     "id": 11,
-    "month": "December"
+    "month": "Dezember"
   }
 ]
+
+

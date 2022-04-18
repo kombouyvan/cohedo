@@ -9,7 +9,7 @@ import { Contact } from '../models/contact';
 })
 export class ContactService {
 
-  ServerUrl = 'https://slidesigma.nyc/scripts/sendmail.php';
+  ServerUrl = 'https://slidesigma.nyc/scripts/Sendenmail.php';
   errorData: {} | undefined;
 
   httpOptions = {
