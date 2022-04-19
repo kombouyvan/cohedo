@@ -5,23 +5,22 @@ import { NgxPaginationModule } from 'ngx-pagination';
 
 import { LocalRoutingModule } from './local-routing.module';
 import { LocalComponent } from './local.component';
-
 import {SharedModule} from '../../shared/shared.module';
-import {BlogLeftModule} from '../blog-left/blog-left.module';
+import {ContentComponent} from './content-local/content/content.component';
 
 
 
 @NgModule({
   declarations: [
     LocalComponent,
+    ContentComponent
   ],
   imports: [
     CommonModule,
     LocalRoutingModule,
     SharedModule,
     NgbModule,
-    NgxPaginationModule,
-    BlogLeftModule
+    NgxPaginationModule
   ]
 })
 export class LocalModule { }

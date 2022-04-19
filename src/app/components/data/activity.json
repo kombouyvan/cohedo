@@ -4,6 +4,8 @@
     "activities": [
       {
         "id": 0,
+        "tag": [
+        ],
         "image": "https://picsum.photos/600/600?random=1",
         "date": "02-10-2018",
         "project": "Gemeinsam statt alleine",
@@ -15,6 +17,8 @@
       },
       {
         "id": 1,
+        "tag": [
+        ],
         "image": "https://picsum.photos/600/600?random=2",
         "date": "02-11-2018",
         "project": "Globe Café – eine Welt in der Kiste",
@@ -26,6 +30,8 @@
       },
       {
         "id": 2,
+        "tag": [
+        ],
         "image": "https://picsum.photos/600/600?random=3",
         "date": "01-12-2018",
         "project": "Meet & Greet – dein Engagement ist gefragt",
@@ -37,6 +43,8 @@
       },
       {
         "id": 3,
+        "tag": [
+        ],
         "image": "https://picsum.photos/600/600?random=4",
         "date": "24-12-2018",
         "project": "COHEDO e.V. – Jahresfeier",
@@ -48,6 +56,8 @@
       },
       {
         "id": 4,
+        "tag": [
+        ],
         "image": "https://picsum.photos/600/600?random=5",
         "date": "24-12-2018",
         "project": "„ Deine Stimme für Integration“ - Ein Photovoice-Projekt mit Geflüchteten und Neuzugewanderter",
@@ -59,6 +69,8 @@
       },
       {
         "id": 5,
+        "tag": [
+        ],
         "image": "https://picsum.photos/600/600?random=6",
         "date": "24-12-2018",
         "project": "COHEDO e.V. – Jahresfeier",
@@ -70,6 +82,8 @@
       },
       {
         "id": 6,
+        "tag": [
+        ],
         "image": "https://picsum.photos/600/600?random=7",
         "date": "24-12-2018",
         "project": "Meet & Greet – dein Engagement ist gefragt",
@@ -141,6 +155,7 @@
     "activities": [
       {
         "id": 0,
+        "tag": [],
         "image": "https://picsum.photos/600/600?random=27",
         "date": "2018-10-02",
         "project": "Gemeinsam statt alleine",
@@ -155,6 +170,8 @@
       },
       {
         "id": 1,
+        "tag": [
+        ],
         "image": "https://picsum.photos/600/600?random=55",
         "date": "2018-11-02",
         "project": "Globe Café – eine Welt in der Kiste",
@@ -169,6 +186,8 @@
       },
       {
         "id": 2,
+        "tag": [
+        ],
         "image": "https://picsum.photos/600/600?random=45",
         "date": "2018-12-01",
         "project": "Meet & Greet – dein Engagement ist gefragt",
@@ -183,6 +202,8 @@
       },
       {
         "id": 4,
+        "tag": [
+        ],
         "image": "https://picsum.photos/600/600?random=25",
         "date": "2018-12-24",
         "project": "COHEDO e.V. – Jahresfeier",
@@ -197,6 +218,8 @@
       },
       {
         "id": 5,
+        "tag": [
+        ],
         "image": "https://picsum.photos/600/600?random=8",
         "date": "2018-12-24",
         "project": "„ Deine Stimme für Integration“ - Ein Photovoice-Projekt mit Geflüchteten und Neuzugewanderter",
@@ -211,6 +234,8 @@
       },
       {
         "id": 6,
+        "tag": [
+        ],
         "image": "https://picsum.photos/600/600?random=9",
         "date": "2018-12-24",
         "project": "COHEDO e.V. – Jahresfeier",
@@ -225,6 +250,8 @@
       },
       {
         "id": 7,
+        "tag": [
+        ],
         "image": "https://picsum.photos/600/600?random=10",
         "date": "2018-12-01",
         "project": "Meet & Greet – dein Engagement ist gefragt",
@@ -239,6 +266,8 @@
       },
       {
         "id": 8,
+        "tag": [
+        ],
         "image": "https://picsum.photos/600/600?random=11",
         "date": "2018-11-02",
         "project": "Globe Café – eine Welt in der Kiste",
@@ -253,6 +282,8 @@
       },
       {
         "id": 9,
+        "tag": [
+        ],
         "image": "https://picsum.photos/600/600?random=12",
         "date": "2018-10-02",
         "project": "Gemeinsam statt alleine",
@@ -267,6 +298,8 @@
       },
       {
         "id": 10,
+        "tag": [
+        ],
         "image": "https://picsum.photos/600/600?random=15",
         "date": "2018-10-02",
         "project": "FAIRFRIENDS-MESSE, 06. – 09.09.2018, FOTOSBERICHT",
@@ -281,6 +314,8 @@
       },
       {
         "id": 11,
+        "tag": [
+        ],
         "image": "https://picsum.photos/600/600?random=13",
         "date": "2018-10-02",
         "project": "Internationale Küche des Miteinanders Fair-binden!",
@@ -295,6 +330,8 @@
       },
       {
         "id": 12,
+        "tag": [
+        ],
         "image": "https://picsum.photos/600/600?random=14",
         "date": "2018-10-02",
         "project": "FRAUENTREFF „TALK TOGETHER“",
@@ -314,7 +351,9 @@
     "activities": [
       {
         "id": 0,
-        "tag": "Ausflug",
+        "tag": [
+          "Ausflug"
+        ],
         "image": "/assets/img/projets/Mit-Pastoren-in-Berlin-web-780x520.jpg",
         "date": "26-07-2019",
         "project": "Pastoren Ausflug",
@@ -328,7 +367,7 @@
       },
       {
         "id": 1,
-        "tag": "Maßnahme",
+        "tag":[ "Maßnahme"],
         "image": "/assets/img/projets/Pastoren_Schulung-2.jpg",
         "date": "03-07-2019",
         "project": "Pastoren Schulung",
@@ -350,7 +389,7 @@
       },
       {
         "id": 2,
-        "tag": "AIDS-Hilfe,Deine Gesundheit - Dein Glaube,HIV",
+        "tag": ["AIDS-Hilfe","Deine Gesundheit - Dein Glaube","HIV"],
         "image": "/assets/img/projets/20181223_172840-780x520.jpg",
         "date": "19-06-2019",
         "project": "Your Health, Your Faith – HIV Prevention In African Church Communities",
@@ -358,12 +397,12 @@
         "details_activities": {
           "description": "<p>Deine Gesundheit, Dein Glaube – HIV-Prävention in afrikanischen Kirchengemeinden ist ein Projekt der Deutschen AIDS-Hilfe e. V. (DAH)</p> <p>Dauer: 2015 – 2019</p><h3>Projektbeschreibung</h3><p>„Deine Gesundheit, Dein Glaube“ (2015 – 2019) ist ein partizipatives Projekt, das zum Ziel hat, Menschen aus Ländern Sub-Sahara-Afrikas über bestehende Präventions-, Testung- und Behandlungsangebote in Deutschland zu informieren sowie ihre Solidarität mit betroffenen Menschen zu fördern. Das Projekt wird von der Deutschen AIDS-Hilfe (DAH) in enger Kooperation mit dem Afrikanischen <a href=\"https://www.hiv-migration.de/content/aghnid\" target=\"_blank\" rel=\"noopener noreferrer\">Gesundheits-&amp;HIV Netzwerk in Deutschland (AGHNiD)</a>, afrikanischen Pastoren, Aidshilfen und Gesundheitsämtern an acht Standorten (Berlin, Bremen, Essen, Saarbrücken, Hamburg, Dortmund, Magdeburg und Köln) umgesetzt. Die beteiligten Community-Partner_innen werden fachlich und methodisch unterstützt, HIV-Prävention in afrikanischen Kirchengemeinden partizipativ umzusetzen.</p><p><strong>Kontakt</strong><br>\n<span class=\"color\">COHEDO</span> – Community at Heart Dortmund e.V.<br>\nWittener Straße 55,<br>\n44149 Dortmund</p><p>Mobil: +49 176 22880238<br>\nEmail: kontakt@cohedo.de<br>\nWebseite: www.cohedo.de</p>",
           "images": [],
-          "tag": true
+          "tab": true
         }
       },
       {
         "id": 3,
-        "tag": "Deine Gesundheit - Dein Glaube",
+        "tag": ["Deine Gesundheit - Dein Glaube"],
         "image": "/assets/img/projets/20181121_205546-780x520.jpg",
         "date": "02-03-2019",
         "project": "Your Health, Your Faith – HIV Prevention In African Church Communities",
@@ -381,8 +420,8 @@
             "/assets/img/details_activities/details_activity-3.7.jpg",
             "/assets/img/details_activities/details_activity-3.8.jpg",
             "/assets/img/details_activities/details_activity-3.9.jpg"
-          ],
-          "tag": true
+          ]
+
         }
       }
     ]
@@ -392,7 +431,7 @@
     "activities": [
       {
         "id": 0,
-        "tag": "Jugendprogramm",
+        "tag": ["Jugendprogramm"],
         "image": "/assets/img/projets/project-3.jpg",
         "date": "01-09-2019",
         "project": "Jugend und Engagement",
@@ -406,7 +445,7 @@
       },
       {
         "id": 1,
-        "tag": "Jugendprogramm",
+        "tag": ["Jugendprogramm"],
         "image": "/assets/img/projets/project-3.1.jpg",
         "date": "23-08-2019",
         "project": "Dorstfelder Ferienspiele",
@@ -427,7 +466,7 @@
       },
       {
         "id": 2,
-        "tag": "Aktion,Dorstfeld",
+        "tag": ["Aktion","Dorstfeld"],
         "image": "/assets/img/projets/COHEDO-Aktion-Dorstfeld-780x520.jpg",
         "date": "23-08-2019",
         "project": "Demokratiefestival Vielfalt lieben – Dorstfeld",
@@ -444,7 +483,7 @@
     "activities": [
       {
         "id": 0,
-        "tag": "Maßnahme",
+        "tag": ["Maßnahme"],
         "image": "/assets/img/projets/project-5.jpg",
         "date": "28-10-2019",
         "project": "Interkultureller Familienausflug",
@@ -459,7 +498,7 @@
       },
       {
         "id": 1,
-        "tag": "Maßnahme",
+        "tag": ["Maßnahme"],
         "image": "/assets/img/projets/project-5.1.jpg",
         "date": "31-07-2019",
         "project": "Ausflug zum Imker",
@@ -480,7 +519,7 @@
       },
       {
         "id": 2,
-        "tag": "Frauentreff, Maßnahme, Workshop",
+        "tag": ["Frauentreff", "Maßnahme", "Workshop"],
         "image": "/assets/img/projets/project-5.2.jpg",
         "date": "26-07-2019",
         "project": "Workshop – Deine Gesundheit, Deine Rechte",
@@ -501,7 +540,7 @@
       },
       {
         "id": 3,
-        "tag": "Frauentreff",
+        "tag": ["Frauentreff"],
         "image": "/assets/img/projets/project-5.3.jpg",
         "date": "17-07-2019",
         "project": "Frauentreff „Talk Together“",
@@ -525,7 +564,7 @@
     "activities": [
       {
         "id": 0,
-        "tag": "Maßnahme",
+        "tag": ["Maßnahme"],
         "image": "/assets/img/projets/project-6.jpg",
         "date": "28-10-2019",
         "project": "Münsterstraßenfest des Integrationsrates der Stadt Dortmund",
@@ -539,7 +578,7 @@
       },
       {
         "id": 1,
-        "tag": "Maßnahme",
+        "tag": ["Maßnahme"],
         "image": "/assets/img/projets/project-6.1.jpg",
         "date": "28-10-2019",
         "project": "Mein Dortmund-politisch-sozial-historisch, „Ein Ausflug ins Dortmunder Rathaus“",
@@ -554,7 +593,7 @@
       },
       {
         "id": 2,
-        "tag": "Maßnahme",
+        "tag": ["Maßnahme"],
         "image": "/assets/img/projets/project-6.2.jpg",
         "date": "22-08-2019",
         "project": "Essen verbindet Menschen und Kulturen",
@@ -567,7 +606,7 @@
       },
       {
         "id": 3,
-        "tag": "Flüchtlingshilfe",
+        "tag": ["Flüchtlingshilfe"],
         "image": "/assets/img/projets/project-6.3.jpg",
         "date": "19-06-2019",
         "project": "KOMM-AN NRW 2019",
@@ -585,7 +624,7 @@
     "activities": [
       {
         "id": 0,
-        "tag": "Jugendprogramm",
+        "tag": ["Jugendprogramm"],
         "image": "/assets/img/projets/project-7.jpg",
         "date": "19-06-2019",
         "project": "Projekt Made by Me",
@@ -604,7 +643,7 @@
       },
       {
         "id": 1,
-        "tag": "Jugendprogramm",
+        "tag": ["Jugendprogramm"],
         "image": "/assets/img/projets/project-6.1.jpg",
         "date": "28-05-2019",
         "project": "Verleihung Made By Me",

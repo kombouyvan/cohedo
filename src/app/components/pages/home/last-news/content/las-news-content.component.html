@@ -4,20 +4,20 @@
             <div class="col-xl-9 col-lg-8">
                 <div class="full-width">
                     <div class="row">
-                        <div class="col-xl-4 col-lg-6 col-md-6" *ngFor="let item of blogpost | paginate: { itemsPerPage: 9, currentPage: page }">
+                        <div class="col-xl-4 col-lg-6 col-md-6" *ngFor="let item of lastestNews">
                             <article class="blog-item blog-item-box">
                                 <div class="blog-item-img">
-                                    <img class="blog-img" [src]="item.image[0]" [alt]="item.title">
+                                    <img class="blog-img" [src]="item.images" [alt]="item.id">
                                     <ul class="blog-item-badge">
-                                        <li *ngFor="let cat of getCategories(item.category) | slice:0:2"><a routerLink="/blog/cat/{{cat.id}}">{{cat.title}}</a> </li>
+                                        <li *ngFor="let cat of item.tag"><a>{{cat}}</a></li>
                                     </ul>
                                 </div>
                                 <div class="blog-item-content">
                                     <h5 class="blog-item-title"><a routerLink="/blog-details/{{item.id}}">{{item.title}}</a></h5>
-                                    <p>{{item.shortdesc}}</p>
+                                    <p>{{item.shortDescription}}</p>
                                     <div class="blog-item-details">
-                                        <span class="blog-item-date"><i class="fas fa-calendar-week"></i> {{item.postdate}}</span>
-                                        <span><i class="fas fa-comment-dots"></i> {{item.reviews.length}}</span></div>
+                                        <span class="blog-item-date"><i class="fas fa-calendar-week"></i> {{item.date | date}}</span>
+                                    </div>
                                 </div>
                             </article>
                         </div>

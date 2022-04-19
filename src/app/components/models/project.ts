@@ -17,7 +17,7 @@ export interface Activity {
   description: string;
   details_activities?: DetailsActivities;
   activity_details?: ActivityDetail[];
-  tag?: string;
+  tag?: Array<string>;
 }
 
 export interface ActivityDetail {
@@ -29,6 +29,6 @@ export interface ActivityDetail {
 export interface DetailsActivities {
   description: string;
   images: string[];
-  tag?: boolean;
+  tab?: boolean;
 }
 

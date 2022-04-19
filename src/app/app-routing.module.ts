@@ -211,6 +211,11 @@ const routes: Routes = [
     loadChildren: () => import('./components/pages/story-details/story-details.module').then(m => m.StoryDetailsModule),
     data: {breadcrumb: 'Story Details'}
   },
+  {
+    path: 'activity-details/:activity_id/:project_id/:tag',
+    loadChildren: () => import('./components/pages/tag-archives/tag-archive.module').then(m => m.TagArchiveModule),
+    data: {breadcrumb: 'Tag Archives'}
+  },
   // Error 404
   {
     path: '**',

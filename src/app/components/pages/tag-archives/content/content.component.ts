@@ -10,28 +10,24 @@ import activity_data from '../../../data/activity.json';
   styleUrls: ['./content.component.css']
 })
 
+// @ts-ignore
 export class ContentComponent extends StoryHelperService implements OnInit {
 
+  activity?: Activity[] = [];
   activities?: Activities;
-  activity: Activity | undefined;
 
-  // @ts-ignore
-  dataForUrl: {
-    activity_id: number,
-    project_id: number
-  } = {};
 
   ngOnInit(): void {
     this.route.params
       .subscribe(params => {
-          const {activity_id, project_id} = params;
-          this.dataForUrl.activity_id = activity_id;
-          this.dataForUrl.project_id = project_id;
+          const {activity_id, project_id, tag} = params;
           // tslint:disable-next-line:radix
           this.activities = activity_data.find((item: Activities) => item.project_id === parseInt(project_id));
-          // tslint:disable-next-line:radix
-          this.activity = this.activities?.activities.find((item: Activity) => item.id === parseInt(activity_id));
+          // tslint:disable-next-line:radix max-line-length
+          this.activity = activity_data.map(activity => activity.activities.filter(item =>  item.tag?.includes(tag)));
+          console.log(this.activity);
         }
       );
+
   }
 }

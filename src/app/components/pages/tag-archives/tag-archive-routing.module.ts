@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { BlogLeftComponent } from './blog-left.component';
+import { TagArchiveComponent } from './tag-archive.component';
 
-const routes: Routes = [{ path: '', component: BlogLeftComponent }];
+const routes: Routes = [{ path: '', component: TagArchiveComponent }];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class BlogLeftRoutingModule { }
+export class TagArchiveRoutingModule { }

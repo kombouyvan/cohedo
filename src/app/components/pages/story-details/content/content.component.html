@@ -1,36 +1,54 @@
-<section class="our-articles bg-light-theme section-padding" >
-    <div class="container-fluid custom-container">
-        <div class="row">
-            <div class="col-xl-9 col-lg-8">
-                <div class="main-box padding-20 full-width sa-causes-single sa-causes-single-2 mb-md-40">
-                    <div class="post-wrapper mb-xl-20">
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12">
-                                <div class="profile-img full-height">
-                                    <img [src]="activity.image" [alt]="activity.id" class="img-fluid full-width full-height">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div [innerHtml]="activity.details_activities.description"></div>
-                            <div class="user-gallery">
-                                <div class="row">
-                                    <div class="col-md-3" *ngFor="let image of activity?.details_activities.images">
-                                        <a href="{{image}}" class="popup-image">
-                                            <img [src]="image" class="img-fluid rounded mx-auto d-block full-width">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+<section class="our-articles bg-light-theme section-padding">
+  <div class="container-fluid custom-container">
+    <div class="row">
+      <div class="col-xl-9 col-lg-8">
+        <div class="main-box padding-20 full-width sa-causes-single sa-causes-single-2 mb-md-40">
+          <div class="post-wrapper mb-xl-20">
+            <div class="row">
+              <div class="col-lg-12 col-md-12">
+                <div class="blog-item-img">
+                  <img [src]="activity?.image" [alt]="activity?.id" class="img-fluid full-width full-height">
+                  <div *ngIf="activity.tag.length !== 0">
+                    <ul class="blog-item-badge">
+                      <li style="cursor: pointer"
+                          *ngFor="let tag of activity.tag"><a
+                        [routerLink]="['/activity-details/'+ dataForUrl.activity_id+'/'+dataForUrl.project_id +'/'+tag]">{{tag}}</a>
+                      </li>
+                    </ul>
+                  </div>
+
                 </div>
+              </div>
             </div>
-            <aside class="col-xl-3 col-lg-4">
-                <app-story-sidebar></app-story-sidebar>
-            </aside>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div [innerHtml]="activity?.details_activities.description"></div>
+              <div class="user-gallery">
+                <div class="row">
+                  <div class="col-md-3" *ngFor="let image of activity?.details_activities.images">
+                    <a href="{{image}}" class="popup-image">
+                      <img [src]="image" class="img-fluid rounded mx-auto d-block full-width">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <aside class="col-xl-3 col-lg-4 side-bar">
+        <app-blog-sidebar
+          [title]="'NEUIGKEITEN'"
+          [useTitle]="false"
+          [enableCategories]="false"
+          [enableTags]="false"
+          [enableLastNews]="true"></app-blog-sidebar>
+        <div class="main-box padding-20 blog-tags mb-xl-20">
+          <h5 class="text-light-black">Tags</h5>
+          <a routerLink="/story/tag/{{item.id}}" *ngFor="let item of tags">#{{item.title}}</a>
+        </div>
+      </aside>
     </div>
+  </div>
 </section>

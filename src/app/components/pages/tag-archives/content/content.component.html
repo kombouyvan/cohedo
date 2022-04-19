@@ -1,0 +1,36 @@
+<section class="our-articles bg-light-theme section-padding">
+  <div class="container-fluid custom-container">
+    <div class="row">
+      <div class="col-xl-9 col-lg-8">
+        <div class="main-box padding-20 full-width sa-causes-single sa-causes-single-2 mb-md-40">
+
+          <div class="row">
+            <div class="col-12">
+              <div class="user-gallery">
+                <div class="row">
+                  <div class="col-md-3" *ngFor="let item of activity">
+                    <a href="{{item.image}}" class="popup-image">
+                      <img [src]="item.image" class="img-fluid rounded mx-auto d-block full-width">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <aside class="col-xl-3 col-lg-4 side-bar">
+        <app-blog-sidebar
+          [title]="'NEUIGKEITEN'"
+          [useTitle]="false"
+          [enableCategories]="false"
+          [enableTags]="false"
+          [enableLastNews]="true"></app-blog-sidebar>
+        <div class="main-box padding-20 blog-tags mb-xl-20">
+          <h5 class="text-light-black">Tags</h5>
+          <a  *ngFor="let item of tags">#{{item.title}}</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
