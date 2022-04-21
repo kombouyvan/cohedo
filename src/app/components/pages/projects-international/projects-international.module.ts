@@ -8,12 +8,14 @@ import { ProjectsInternationalRoutingModule } from './projects-international-rou
 import {SharedModule} from '../../shared/shared.module';
 import {ProjectsInternationalComponent} from './projects-international.component';
 import {CheckoutModule} from '../checkout/checkout.module';
+import {ContentComponent} from './content-local/content/content.component';
 
 
 
 @NgModule({
   declarations: [
     ProjectsInternationalComponent,
+    ContentComponent
   ],
   imports: [
     CommonModule,

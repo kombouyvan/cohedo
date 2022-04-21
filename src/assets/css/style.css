@@ -5811,6 +5811,7 @@ footer .footer-links .contact-info li a span {
 }
 .blog-item-box .blog-item-content {
 	padding: 40px 0px 0px 0px;
+  height: 302px;
 }
 .blog-item-box .blog-item-title {
 	font-size: 20px;
@@ -5885,6 +5886,7 @@ footer .footer-links .contact-info li a span {
 	padding: 15px;
 	background: #fff;
 	border: 1px solid rgba(0, 0, 0, .1);
+  height: 78px;
 }
 .sa-causes-single .causes-details {
 	text-align: left;

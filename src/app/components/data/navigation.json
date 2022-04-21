@@ -90,13 +90,6 @@
     "submenu": []
   },
   {
-    "id": 6,
-    "linkText": "Kontakt",
-    "link": "/contact",
-    "child": false,
-    "submenu": []
-  },
-  {
     "id": 4,
     "linkText": "Thema",
     "child": true,
@@ -127,5 +120,13 @@
         "linkText": "Nachhaltigkeit"
       }
     ]
+  },
+  {
+    "id": 6,
+    "linkText": "Kontakt",
+    "link": "/contact",
+    "child": false,
+    "submenu": []
   }
+
 ]

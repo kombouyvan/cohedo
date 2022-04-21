@@ -35,9 +35,19 @@
             </div>
             <div class="col-lg-4 align-self-center">
                 <div class="blob play-btn ">
-                    <a href="https://www.youtube.com/watch?v=KH1pcNUTa6U" class="popup-youtube popup-video"> <i class="fas fa-play"></i></a>
+                    <a   (click)="open(shopmodal)"> <i class="fas fa-play"></i></a>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<!-- Modal -->
+<ng-template #shopmodal let-modal>
+  <div class="modal-body">
+    <button type="button" class="close" (click)="modal.dismiss('Cross click')">×</button>
+    <!-- product details inner end -->
+    here a add some video
+    <!-- product details inner end -->
+  </div>
+</ng-template>

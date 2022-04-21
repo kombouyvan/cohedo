@@ -36,6 +36,17 @@ const routes: Routes = [
     loadChildren: () => import('./components/pages/what-we-do/what-we-do.module').then(m => m.WhatWeDoModule),
     data: {breadcrumb: 'What We Do'}
   },
+  //donate
+  {
+    path: 'donate',
+    loadChildren: () => import('./components/pages/spenden/spenden.module').then(m => m.SpendenModule),
+    data: {breadcrumb: 'Spenden'}
+  },
+  {
+    path: 'imprint',
+    loadChildren: () => import('./components/pages/imprint/imprint.module').then(m => m.ImprintModule),
+    data: {breadcrumb: 'Impressum'}
+  },
   //Volunteer
   {
     path: 'volunteer',
@@ -58,17 +69,17 @@ const routes: Routes = [
   {
     path: 'project/projects-local',
     loadChildren: () => import('./components/pages/projects-local/local.module').then(m => m.LocalModule),
-    data: {breadcrumb: 'Locale'}
+    data: {breadcrumb: 'Lokale'}
   },
   {
     path: 'project/projects-local/:id',
     loadChildren: () => import('./components/pages/project-local-details/project-local-details.module').then(m => m.ProjectLocalDetailsModule),
-    data: {breadcrumb: 'Locale'}
+    data: {breadcrumb: 'Lokale'}
   },
   {
     path: 'project/projects-international',
     loadChildren: () => import('./components/pages/projects-international/projects-international.module').then(m => m.ProjectsInternationalModule),
-    data: {breadcrumb: 'Mitglied werden'}
+    data: {breadcrumb: 'Internationale'}
   },
   // Shop
   {

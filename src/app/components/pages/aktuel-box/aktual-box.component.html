@@ -1,0 +1,31 @@
+<section class="ex-collection section-padding bg-theme-primary">
+  <div class="container-fluid custom-container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-header-left">
+          <h3 class="text-light-black header-title title">Aktuelles</h3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <swiper [config]="settings" class=" swiper-container">
+        <div class="swiper-wrapper">
+          <div class="col-xl-4 col-lg-6 swiper-slide" *ngFor="let item of actual">
+            <div class="story-wrapper">
+              <img [src]="item.images" [alt]="item.id" class="full-width img-fluid mx-auto d-block">
+              <div class="story-box-content story-content-wrapper">
+                <h6><a style="color: white" routerLink="/actual/{{item.id}}">{{item.title}}</a></h6>
+                <a routerLink="/actual/{{item.id}}" class="btn btn-text btn-text-white">Mehr lesen</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </swiper>
+
+    </div>
+  </div>
+</section>

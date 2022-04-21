@@ -65,6 +65,7 @@
         </div>
     </div>
 </section>
+
 <!-- Modal -->
 <ng-template #shopmodal let-modal>
     <div class="modal-body">
@@ -115,7 +116,7 @@
                             <p class="mb-0">{{modalContent.shortdesc}}</p>
                         </div>
                         <div class="availibity mt-20">
-                            <h6 class="text-custom-black fw-600">Avability: 
+                            <h6 class="text-custom-black fw-600">Avability:
                                 <span class="text-success ml-2" *ngIf="modalContent.stock">In Stock</span>
                                 <span class="text-danger ml-2" *ngIf="!modalContent.stock">Out Of Stock</span>
                             </h6>
@@ -150,7 +151,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="product-btn mt-20"> 
+                            <div class="product-btn mt-20">
                                 <button type="button" class="btn-solid with-line ml-2" *ngIf="modalContent.stock"
                                 (click)="handlePopupAddToCart(modalContent)">Add to Cart <i class="pe-7s-cart"></i></button>
                                 <button type="button" class="btn-solid with-line ml-2" *ngIf="!modalContent.stock"

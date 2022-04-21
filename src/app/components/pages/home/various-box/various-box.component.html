@@ -1,0 +1,20 @@
+<section class="ex-collection section-padding bg-theme-primary">
+  <div class="container-fluid custom-container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-header-left">
+          <h3 class="text-light-black header-title title">Unsere Veranstaltungen</h3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6" *ngFor="let item of various; let i = index">
+        <div >
+          <h6>{{item.name}}</h6>
+          <img [src]='item.img' [alt]="i" class="full-width img-fluid mx-auto d-block"/>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

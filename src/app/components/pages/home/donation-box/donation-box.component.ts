@@ -2,7 +2,7 @@ import {Component} from '@angular/core';
 import {DonationHelperService} from 'src/app/components/services/donation-helper.service';
 import project from '../../../data/projects.json';
 import {SwiperOptions} from 'swiper';
-import {Activity} from '../../../models/project';
+import { Project} from '../../../models/project';
 
 @Component({
   selector: 'app-donation-box',
@@ -11,7 +11,7 @@ import {Activity} from '../../../models/project';
 })
 export class DonationBoxComponent extends DonationHelperService {
   // settings
-  projects: Activity[] = project;
+  projects: Project[] = project;
   settings: SwiperOptions = {
     // autoplay: {
     //   delay: 2500,

@@ -1,0 +1,25 @@
+.nav-item{
+  width: 35%;
+  text-align: center;
+  font-weight: bold;
+
+}
+.nav{
+  justify-content: space-around;
+  margin-top: -55px;
+}
+
+.nav-link.active{
+  background-color: #01585e;
+}
+
+.project-name{
+  font-weight: bold;
+  font-size: small;
+  /*text-align: center;*/
+}
+
+.img-fluid {
+  height: 281px !important;
+  object-fit: cover !important;
+}

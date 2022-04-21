@@ -15,7 +15,7 @@
               <img [src]="item.image" [alt]="item.id" class="full-width img-fluid mx-auto d-block">
               <div class="story-box-content story-content-wrapper">
                 <!--                        <span class="story-badge bg-custom-primary text-color-secondary" *ngFor="let cat of getCategories(item.category)">{{cat.title}}</span>-->
-                <h4><a routerLink="/project/projects-local/{{item.id}}">{{item.project}}</a></h4>
+                <h6 ><a style="color: white" routerLink="/project/projects-local/{{item.id}}">{{item.name}}</a></h6>
                 <a routerLink="/project/projects-local/{{item.id}}" class="btn btn-text btn-text-white">Mehr lesen</a>
               </div>
             </div>

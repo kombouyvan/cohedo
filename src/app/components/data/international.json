@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "name": "Besichtigung Complexe Socio-Collectif de Nguekokh",
+    "image": "/assets/img/international/complex-socio-collectif-de-nguekoh/1.jpg",
+    "images": [
+      "/assets/img/international/complex-socio-collectif-de-nguekoh/1.jpg",
+      "/assets/img/international/complex-socio-collectif-de-nguekoh/2.jpg",
+      "/assets/img/international/complex-socio-collectif-de-nguekoh/3.jpg",
+      "/assets/img/international/complex-socio-collectif-de-nguekoh/4.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Besichtigung École Primaire de Nguekokh",
+    "image": "/assets/img/international/ecole-primaire-de-ngeukokh/1.jpg",
+    "images": [
+      "/assets/img/international/ecole-primaire-de-ngeukokh/1.jpg",
+      "/assets/img/international/ecole-primaire-de-ngeukokh/2.jpg",
+      "/assets/img/international/ecole-primaire-de-ngeukokh/3.jpg",
+      "/assets/img/international/ecole-primaire-de-ngeukokh/4.jpg",
+      "/assets/img/international/ecole-primaire-de-ngeukokh/5.jpg",
+      "/assets/img/international/ecole-primaire-de-ngeukokh/6.jpg",
+      "/assets/img/international/ecole-primaire-de-ngeukokh/7.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Besichtigung Poste de Santé de Nguekokh I",
+    "image": "/assets/img/international/poste_de_santé_de_ngeukokh_I/1.jpg",
+    "images": [
+      "/assets/img/international/poste_de_santé_de_ngeukokh_I/1.jpg",
+      "/assets/img/international/poste_de_santé_de_ngeukokh_I/2.jpg",
+      "/assets/img/international/poste_de_santé_de_ngeukokh_I/3.jpg",
+      "/assets/img/international/poste_de_santé_de_ngeukokh_I/4.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Besichtigung Commune de Nguekokh Cohedo Partner",
+    "image": "/assets/img/international/partenariat_commune_ngeukokh/1.jpg",
+    "images": [
+      "/assets/img/international/partenariat_commune_ngeukokh/1.jpg",
+      "/assets/img/international/partenariat_commune_ngeukokh/2.jpg",
+      "/assets/img/international/partenariat_commune_ngeukokh/3.jpg",
+      "/assets/img/international/partenariat_commune_ngeukokh/4.jpg"
+    ]
+  }
+]
